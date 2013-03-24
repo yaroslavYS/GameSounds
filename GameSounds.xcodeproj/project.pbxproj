@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B759236F16FFA72A00DD0690 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B759236E16FFA72A00DD0690 /* Cocoa.framework */; };
+		B759237916FFA72A00DD0690 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B759237716FFA72A00DD0690 /* InfoPlist.strings */; };
+		B759237B16FFA72B00DD0690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B759237A16FFA72A00DD0690 /* main.m */; };
+		B759237F16FFA72B00DD0690 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B759237D16FFA72B00DD0690 /* Credits.rtf */; };
+		B759238216FFA72B00DD0690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B759238116FFA72B00DD0690 /* AppDelegate.m */; };
+		B759238516FFA72B00DD0690 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B759238316FFA72B00DD0690 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B759236B16FFA72A00DD0690 /* GameSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B759236E16FFA72A00DD0690 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B759237116FFA72A00DD0690 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B759237216FFA72A00DD0690 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B759237316FFA72A00DD0690 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B759237616FFA72A00DD0690 /* GameSounds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameSounds-Info.plist"; sourceTree = "<group>"; };
+		B759237816FFA72A00DD0690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B759237A16FFA72A00DD0690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B759237C16FFA72B00DD0690 /* GameSounds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameSounds-Prefix.pch"; sourceTree = "<group>"; };
+		B759237E16FFA72B00DD0690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B759238016FFA72B00DD0690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B759238116FFA72B00DD0690 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B759238416FFA72B00DD0690 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B759236816FFA72A00DD0690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759236F16FFA72A00DD0690 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B759236216FFA72A00DD0690 = {
+			isa = PBXGroup;
+			children = (
+				B759237416FFA72A00DD0690 /* GameSounds */,
+				B759236D16FFA72A00DD0690 /* Frameworks */,
+				B759236C16FFA72A00DD0690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B759236C16FFA72A00DD0690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B759236B16FFA72A00DD0690 /* GameSounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B759236D16FFA72A00DD0690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B759236E16FFA72A00DD0690 /* Cocoa.framework */,
+				B759237016FFA72A00DD0690 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B759237016FFA72A00DD0690 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B759237116FFA72A00DD0690 /* AppKit.framework */,
+				B759237216FFA72A00DD0690 /* CoreData.framework */,
+				B759237316FFA72A00DD0690 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B759237416FFA72A00DD0690 /* GameSounds */ = {
+			isa = PBXGroup;
+			children = (
+				B759238016FFA72B00DD0690 /* AppDelegate.h */,
+				B759238116FFA72B00DD0690 /* AppDelegate.m */,
+				B759238316FFA72B00DD0690 /* MainMenu.xib */,
+				B759237516FFA72A00DD0690 /* Supporting Files */,
+			);
+			path = GameSounds;
+			sourceTree = "<group>";
+		};
+		B759237516FFA72A00DD0690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B759237616FFA72A00DD0690 /* GameSounds-Info.plist */,
+				B759237716FFA72A00DD0690 /* InfoPlist.strings */,
+				B759237A16FFA72A00DD0690 /* main.m */,
+				B759237C16FFA72B00DD0690 /* GameSounds-Prefix.pch */,
+				B759237D16FFA72B00DD0690 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B759236A16FFA72A00DD0690 /* GameSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B759238816FFA72B00DD0690 /* Build configuration list for PBXNativeTarget "GameSounds" */;
+			buildPhases = (
+				B759236716FFA72A00DD0690 /* Sources */,
+				B759236816FFA72A00DD0690 /* Frameworks */,
+				B759236916FFA72A00DD0690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameSounds;
+			productName = GameSounds;
+			productReference = B759236B16FFA72A00DD0690 /* GameSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B759236316FFA72A00DD0690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Clear Sky";
+			};
+			buildConfigurationList = B759236616FFA72A00DD0690 /* Build configuration list for PBXProject "GameSounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B759236216FFA72A00DD0690;
+			productRefGroup = B759236C16FFA72A00DD0690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B759236A16FFA72A00DD0690 /* GameSounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B759236916FFA72A00DD0690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759237916FFA72A00DD0690 /* InfoPlist.strings in Resources */,
+				B759237F16FFA72B00DD0690 /* Credits.rtf in Resources */,
+				B759238516FFA72B00DD0690 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B759236716FFA72A00DD0690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759237B16FFA72B00DD0690 /* main.m in Sources */,
+				B759238216FFA72B00DD0690 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B759237716FFA72A00DD0690 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B759237816FFA72A00DD0690 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B759237D16FFA72B00DD0690 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B759237E16FFA72B00DD0690 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B759238316FFA72B00DD0690 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B759238416FFA72B00DD0690 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B759238616FFA72B00DD0690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B759238716FFA72B00DD0690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B759238916FFA72B00DD0690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameSounds/GameSounds-Prefix.pch";
+				INFOPLIST_FILE = "GameSounds/GameSounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B759238A16FFA72B00DD0690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameSounds/GameSounds-Prefix.pch";
+				INFOPLIST_FILE = "GameSounds/GameSounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B759236616FFA72A00DD0690 /* Build configuration list for PBXProject "GameSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B759238616FFA72B00DD0690 /* Debug */,
+				B759238716FFA72B00DD0690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B759238816FFA72B00DD0690 /* Build configuration list for PBXNativeTarget "GameSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B759238916FFA72B00DD0690 /* Debug */,
+				B759238A16FFA72B00DD0690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B759236316FFA72A00DD0690 /* Project object */;
+}
