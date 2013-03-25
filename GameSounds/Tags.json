@@ -1,0 +1,146 @@
+ [
+  {
+  "Category": "STYLE",
+  "Name": "Trance"
+  },
+  {
+  "Category": "STYLE",
+  "Name": "Classical"
+  },
+  {
+  "Category": "STYLE",
+  "Name": "Dnb"
+  },
+  {
+  "Category": "STYLE",
+  "Name": "Metal"
+  },
+  {
+  "Category": "STYLE",
+  "Name": "Hip-Hop/Jazz"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Urban"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Space"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Factory"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Village"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Forest"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Jungle"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Ice"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Water"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Fire"
+  },
+  {
+  "Category": "LOCALE",
+  "Name": "Cavern"
+  },
+  {
+  "Category": "ATMOSPHERE",
+  "Name": "Haunted"
+  },
+  {
+  "Category": "ATMOSPHERE",
+  "Name": "Angelic"
+  },
+  {
+  "Category": "SETTING",
+  "Name": "Medieval"
+  },
+  {
+  "Category": "SETTING",
+  "Name": "Current"
+  },
+  {
+  "Category": "SETTING",
+  "Name": "Future"
+  },
+  {
+  "Category": "GAME SECTION",
+  "Name": "Title"
+  },
+  {
+  "Category": "GAME SECTION",
+  "Name": "Menu/Cinematic"
+  },
+  {
+  "Category": "GAME SECTION",
+  "Name": "Level"
+  },
+  {
+  "Category": "GAME SECTION",
+  "Name": "Boss"
+  },
+  {
+  "Category": "GAME SECTION",
+  "Name": "Ending"
+  },
+  {
+  "Category": "GENRE",
+  "Name": "Platform"
+  },
+  {
+  "Category": "GENRE",
+  "Name": "Puzzle/Strategy"
+  },
+  {
+  "Category": "GENRE",
+  "Name": "Adventure/Rpg"
+  },
+  {
+  "Category": "GENRE",
+  "Name": "Fighting"
+  },
+  {
+  "Category": "GENRE",
+  "Name": "Action"
+  },
+  {
+  "Category": "GENRE",
+  "Name": "Retro"
+  },
+  {
+  "Category": "MOOD",
+  "Name": "Happy"
+  },
+  {
+  "Category": "MOOD",
+  "Name": "Sad"
+  },
+  {
+  "Category": "MOOD",
+  "Name": "Angry"
+  },
+  {
+  "Category": "MOOD",
+  "Name": "Chill"
+  },
+  {
+  "Category": "MOOD",
+  "Name": "Wierd"
+  }
+  ]

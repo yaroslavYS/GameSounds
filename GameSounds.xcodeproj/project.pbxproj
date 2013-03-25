@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71038BA1700C23400813201 /* GameSoundsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038B91700C23400813201 /* GameSoundsManager.m */; };
+		B71038BC1700C3C900813201 /* Tags.json in Resources */ = {isa = PBXBuildFile; fileRef = B71038BB1700C3C900813201 /* Tags.json */; };
+		B71038BF1700DDDC00813201 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038BE1700DDDC00813201 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B71038C21700EC0100813201 /* TrackTCV.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038C11700EC0100813201 /* TrackTCV.m */; };
+		B71038C7170104D800813201 /* TracksTV.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038C6170104D800813201 /* TracksTV.m */; };
 		B759236F16FFA72A00DD0690 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B759236E16FFA72A00DD0690 /* Cocoa.framework */; };
 		B759237916FFA72A00DD0690 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B759237716FFA72A00DD0690 /* InfoPlist.strings */; };
 		B759237B16FFA72B00DD0690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B759237A16FFA72A00DD0690 /* main.m */; };
 		B759237F16FFA72B00DD0690 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B759237D16FFA72B00DD0690 /* Credits.rtf */; };
 		B759238216FFA72B00DD0690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B759238116FFA72B00DD0690 /* AppDelegate.m */; };
 		B759238516FFA72B00DD0690 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B759238316FFA72B00DD0690 /* MainMenu.xib */; };
+		B759238D16FFA76500DD0690 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = B759238C16FFA76500DD0690 /* Track.m */; };
+		B759239116FFC59500DD0690 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = B759239016FFC59500DD0690 /* Tag.m */; };
+		B759239316FFCEA500DD0690 /* Tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = B759239216FFCEA500DD0690 /* Tracks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B71038B81700C23400813201 /* GameSoundsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSoundsManager.h; sourceTree = "<group>"; };
+		B71038B91700C23400813201 /* GameSoundsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSoundsManager.m; sourceTree = "<group>"; };
+		B71038BB1700C3C900813201 /* Tags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tags.json; sourceTree = "<group>"; };
+		B71038BD1700DDDC00813201 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		B71038BE1700DDDC00813201 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		B71038C01700EC0100813201 /* TrackTCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackTCV.h; sourceTree = "<group>"; };
+		B71038C11700EC0100813201 /* TrackTCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackTCV.m; sourceTree = "<group>"; };
+		B71038C5170104D800813201 /* TracksTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksTV.h; sourceTree = "<group>"; };
+		B71038C6170104D800813201 /* TracksTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksTV.m; sourceTree = "<group>"; };
 		B759236B16FFA72A00DD0690 /* GameSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B759236E16FFA72A00DD0690 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B759237116FFA72A00DD0690 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +46,11 @@
 		B759238016FFA72B00DD0690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B759238116FFA72B00DD0690 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B759238416FFA72B00DD0690 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B759238B16FFA76500DD0690 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		B759238C16FFA76500DD0690 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		B759238F16FFC59500DD0690 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		B759239016FFC59500DD0690 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		B759239216FFCEA500DD0690 /* Tracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tracks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B71038B61700C1E500813201 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B71038B81700C23400813201 /* GameSoundsManager.h */,
+				B71038B91700C23400813201 /* GameSoundsManager.m */,
+				B71038BD1700DDDC00813201 /* JSONKit.h */,
+				B71038BE1700DDDC00813201 /* JSONKit.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B71038B71700C1F400813201 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B759239216FFCEA500DD0690 /* Tracks.json */,
+				B71038BB1700C3C900813201 /* Tags.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B71038C31701043200813201 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B71038C5170104D800813201 /* TracksTV.h */,
+				B71038C6170104D800813201 /* TracksTV.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B71038C41701044E00813201 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B71038C01700EC0100813201 /* TrackTCV.h */,
+				B71038C11700EC0100813201 /* TrackTCV.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B759236216FFA72A00DD0690 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +142,11 @@
 		B759237416FFA72A00DD0690 /* GameSounds */ = {
 			isa = PBXGroup;
 			children = (
+				B71038B71700C1F400813201 /* Resources */,
+				B71038B61700C1E500813201 /* Helper */,
+				B759238E16FFA77200DD0690 /* Model */,
+				B71038C31701043200813201 /* Controllers */,
+				B71038C41701044E00813201 /* Views */,
 				B759238016FFA72B00DD0690 /* AppDelegate.h */,
 				B759238116FFA72B00DD0690 /* AppDelegate.m */,
 				B759238316FFA72B00DD0690 /* MainMenu.xib */,
@@ -100,6 +165,17 @@
 				B759237D16FFA72B00DD0690 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B759238E16FFA77200DD0690 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B759238B16FFA76500DD0690 /* Track.h */,
+				B759238C16FFA76500DD0690 /* Track.m */,
+				B759238F16FFC59500DD0690 /* Tag.h */,
+				B759239016FFC59500DD0690 /* Tag.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +232,8 @@
 				B759237916FFA72A00DD0690 /* InfoPlist.strings in Resources */,
 				B759237F16FFA72B00DD0690 /* Credits.rtf in Resources */,
 				B759238516FFA72B00DD0690 /* MainMenu.xib in Resources */,
+				B759239316FFCEA500DD0690 /* Tracks.json in Resources */,
+				B71038BC1700C3C900813201 /* Tags.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +246,12 @@
 			files = (
 				B759237B16FFA72B00DD0690 /* main.m in Sources */,
 				B759238216FFA72B00DD0690 /* AppDelegate.m in Sources */,
+				B759238D16FFA76500DD0690 /* Track.m in Sources */,
+				B759239116FFC59500DD0690 /* Tag.m in Sources */,
+				B71038BA1700C23400813201 /* GameSoundsManager.m in Sources */,
+				B71038BF1700DDDC00813201 /* JSONKit.m in Sources */,
+				B71038C21700EC0100813201 /* TrackTCV.m in Sources */,
+				B71038C7170104D800813201 /* TracksTV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +387,7 @@
 				B759238A16FFA72B00DD0690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
