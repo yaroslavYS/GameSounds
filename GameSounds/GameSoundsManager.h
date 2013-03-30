@@ -13,8 +13,8 @@
 
 @interface GameSoundsManager : NSObject
 
-@property (strong, nonatomic, readonly) NSMutableArray *tracks;
-@property (strong, nonatomic, readonly) NSMutableArray *tags;
+@property (strong, readonly) NSMutableArray *tracks;
+@property (strong, readonly) NSMutableArray *tags;
 
 - (void)addTrack:(Track*)track;
 - (void)addTag:(Tag*)tag;

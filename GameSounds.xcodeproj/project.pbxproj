@@ -10,8 +10,8 @@
 		B71038BA1700C23400813201 /* GameSoundsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038B91700C23400813201 /* GameSoundsManager.m */; };
 		B71038BC1700C3C900813201 /* Tags.json in Resources */ = {isa = PBXBuildFile; fileRef = B71038BB1700C3C900813201 /* Tags.json */; };
 		B71038BF1700DDDC00813201 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038BE1700DDDC00813201 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B71038C21700EC0100813201 /* TrackTCV.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038C11700EC0100813201 /* TrackTCV.m */; };
-		B71038C7170104D800813201 /* TracksTV.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038C6170104D800813201 /* TracksTV.m */; };
+		B71038C21700EC0100813201 /* TrackTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038C11700EC0100813201 /* TrackTableCellView.m */; };
+		B71038C7170104D800813201 /* TracksTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B71038C6170104D800813201 /* TracksTableView.m */; };
 		B759236F16FFA72A00DD0690 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B759236E16FFA72A00DD0690 /* Cocoa.framework */; };
 		B759237916FFA72A00DD0690 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B759237716FFA72A00DD0690 /* InfoPlist.strings */; };
 		B759237B16FFA72B00DD0690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B759237A16FFA72A00DD0690 /* main.m */; };
@@ -21,6 +21,14 @@
 		B759238D16FFA76500DD0690 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = B759238C16FFA76500DD0690 /* Track.m */; };
 		B759239116FFC59500DD0690 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = B759239016FFC59500DD0690 /* Tag.m */; };
 		B759239316FFCEA500DD0690 /* Tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = B759239216FFCEA500DD0690 /* Tracks.json */; };
+		B75AC8C517070F8900A14D3F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B75AC8C317070F8900A14D3F /* play.png */; };
+		B75AC8CB170710D200A14D3F /* NSButton+AlternateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B75AC8CA170710D200A14D3F /* NSButton+AlternateImage.m */; };
+		B75AC8CD1707150500A14D3F /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B75AC8CC1707150500A14D3F /* stop.png */; };
+		B75AC8D01707231A00A14D3F /* TagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75AC8CF1707231A00A14D3F /* TagCollectionView.m */; };
+		B75AC8D31707244400A14D3F /* TagItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75AC8D21707244400A14D3F /* TagItemView.m */; };
+		B75AC8D517072EDF00A14D3F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B75AC8D417072EDF00A14D3F /* icon.png */; };
+		B75AC8DA170760DE00A14D3F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75AC8D9170760DD00A14D3F /* AVFoundation.framework */; };
+		B75AC8DC17076CED00A14D3F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75AC8DB17076CEC00A14D3F /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +37,10 @@
 		B71038BB1700C3C900813201 /* Tags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tags.json; sourceTree = "<group>"; };
 		B71038BD1700DDDC00813201 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		B71038BE1700DDDC00813201 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		B71038C01700EC0100813201 /* TrackTCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackTCV.h; sourceTree = "<group>"; };
-		B71038C11700EC0100813201 /* TrackTCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackTCV.m; sourceTree = "<group>"; };
-		B71038C5170104D800813201 /* TracksTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksTV.h; sourceTree = "<group>"; };
-		B71038C6170104D800813201 /* TracksTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksTV.m; sourceTree = "<group>"; };
+		B71038C01700EC0100813201 /* TrackTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackTableCellView.h; sourceTree = "<group>"; };
+		B71038C11700EC0100813201 /* TrackTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackTableCellView.m; sourceTree = "<group>"; };
+		B71038C5170104D800813201 /* TracksTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksTableView.h; sourceTree = "<group>"; };
+		B71038C6170104D800813201 /* TracksTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksTableView.m; sourceTree = "<group>"; };
 		B759236B16FFA72A00DD0690 /* GameSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B759236E16FFA72A00DD0690 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B759237116FFA72A00DD0690 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -51,6 +59,17 @@
 		B759238F16FFC59500DD0690 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
 		B759239016FFC59500DD0690 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
 		B759239216FFCEA500DD0690 /* Tracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tracks.json; sourceTree = "<group>"; };
+		B75AC8C317070F8900A14D3F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B75AC8C9170710D200A14D3F /* NSButton+AlternateImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+AlternateImage.h"; sourceTree = "<group>"; };
+		B75AC8CA170710D200A14D3F /* NSButton+AlternateImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSButton+AlternateImage.m"; sourceTree = "<group>"; };
+		B75AC8CC1707150500A14D3F /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		B75AC8CE1707231A00A14D3F /* TagCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCollectionView.h; sourceTree = "<group>"; };
+		B75AC8CF1707231A00A14D3F /* TagCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagCollectionView.m; sourceTree = "<group>"; };
+		B75AC8D11707244400A14D3F /* TagItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagItemView.h; sourceTree = "<group>"; };
+		B75AC8D21707244400A14D3F /* TagItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagItemView.m; sourceTree = "<group>"; };
+		B75AC8D417072EDF00A14D3F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B75AC8D9170760DD00A14D3F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B75AC8DB17076CEC00A14D3F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75AC8DC17076CED00A14D3F /* CoreMedia.framework in Frameworks */,
+				B75AC8DA170760DE00A14D3F /* AVFoundation.framework in Frameworks */,
 				B759236F16FFA72A00DD0690 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +93,8 @@
 				B71038B91700C23400813201 /* GameSoundsManager.m */,
 				B71038BD1700DDDC00813201 /* JSONKit.h */,
 				B71038BE1700DDDC00813201 /* JSONKit.m */,
+				B75AC8C9170710D200A14D3F /* NSButton+AlternateImage.h */,
+				B75AC8CA170710D200A14D3F /* NSButton+AlternateImage.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -88,8 +111,8 @@
 		B71038C31701043200813201 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B71038C5170104D800813201 /* TracksTV.h */,
-				B71038C6170104D800813201 /* TracksTV.m */,
+				B71038C5170104D800813201 /* TracksTableView.h */,
+				B71038C6170104D800813201 /* TracksTableView.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -97,8 +120,12 @@
 		B71038C41701044E00813201 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B71038C01700EC0100813201 /* TrackTCV.h */,
-				B71038C11700EC0100813201 /* TrackTCV.m */,
+				B71038C01700EC0100813201 /* TrackTableCellView.h */,
+				B71038C11700EC0100813201 /* TrackTableCellView.m */,
+				B75AC8CE1707231A00A14D3F /* TagCollectionView.h */,
+				B75AC8CF1707231A00A14D3F /* TagCollectionView.m */,
+				B75AC8D11707244400A14D3F /* TagItemView.h */,
+				B75AC8D21707244400A14D3F /* TagItemView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -123,6 +150,8 @@
 		B759236D16FFA72A00DD0690 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B75AC8DB17076CEC00A14D3F /* CoreMedia.framework */,
+				B75AC8D9170760DD00A14D3F /* AVFoundation.framework */,
 				B759236E16FFA72A00DD0690 /* Cocoa.framework */,
 				B759237016FFA72A00DD0690 /* Other Frameworks */,
 			);
@@ -142,6 +171,7 @@
 		B759237416FFA72A00DD0690 /* GameSounds */ = {
 			isa = PBXGroup;
 			children = (
+				B75AC8C217070F7F00A14D3F /* Design */,
 				B71038B71700C1F400813201 /* Resources */,
 				B71038B61700C1E500813201 /* Helper */,
 				B759238E16FFA77200DD0690 /* Model */,
@@ -176,6 +206,16 @@
 				B759239016FFC59500DD0690 /* Tag.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		B75AC8C217070F7F00A14D3F /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				B75AC8D417072EDF00A14D3F /* icon.png */,
+				B75AC8CC1707150500A14D3F /* stop.png */,
+				B75AC8C317070F8900A14D3F /* play.png */,
+			);
+			name = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +274,9 @@
 				B759238516FFA72B00DD0690 /* MainMenu.xib in Resources */,
 				B759239316FFCEA500DD0690 /* Tracks.json in Resources */,
 				B71038BC1700C3C900813201 /* Tags.json in Resources */,
+				B75AC8C517070F8900A14D3F /* play.png in Resources */,
+				B75AC8CD1707150500A14D3F /* stop.png in Resources */,
+				B75AC8D517072EDF00A14D3F /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +293,11 @@
 				B759239116FFC59500DD0690 /* Tag.m in Sources */,
 				B71038BA1700C23400813201 /* GameSoundsManager.m in Sources */,
 				B71038BF1700DDDC00813201 /* JSONKit.m in Sources */,
-				B71038C21700EC0100813201 /* TrackTCV.m in Sources */,
-				B71038C7170104D800813201 /* TracksTV.m in Sources */,
+				B71038C21700EC0100813201 /* TrackTableCellView.m in Sources */,
+				B71038C7170104D800813201 /* TracksTableView.m in Sources */,
+				B75AC8CB170710D200A14D3F /* NSButton+AlternateImage.m in Sources */,
+				B75AC8D01707231A00A14D3F /* TagCollectionView.m in Sources */,
+				B75AC8D31707244400A14D3F /* TagItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

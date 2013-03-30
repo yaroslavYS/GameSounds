@@ -45,7 +45,7 @@
     NSTimeInterval duration = [dictionary[kDurationKey] doubleValue];
     long long fileSize = [dictionary[kFileSizeKey] longLongValue];
     
-    return [self initWithFileName:fileName fileSize:fileSize url:url tags:tagsArr duration:duration];
+    return [self initWithFileName:fileName fileSize:fileSize url:url tags:tags duration:duration];
 }
 
 

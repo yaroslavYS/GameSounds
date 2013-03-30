@@ -11,8 +11,11 @@
 #import "Track.h"
 #import "Tag.h"
 
-@implementation AppDelegate
+@interface AppDelegate ()
 
+@end
+
+@implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

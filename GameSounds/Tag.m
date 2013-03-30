@@ -36,4 +36,9 @@
     return dic;
 }
 
+- (NSString *)description
+{
+    return self.name;
+}
+
 @end

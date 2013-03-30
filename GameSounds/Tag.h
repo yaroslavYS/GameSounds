@@ -10,8 +10,8 @@
 
 @interface Tag : NSObject
 
-@property (strong, nonatomic) NSString *category;
-@property (strong, nonatomic) NSString *name;
+@property (strong) NSString *category;
+@property (strong) NSString *name;
 
 - (id)initWithName:(NSString*)name andCategory:(NSString*)category;
 - (id)initWithDictionary:(NSDictionary*)dictionary;

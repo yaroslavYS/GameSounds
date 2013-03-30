@@ -13,8 +13,8 @@
 
 @interface GameSoundsManager ()
 
-@property (strong, nonatomic, readwrite) NSMutableArray *tracks;
-@property (strong, nonatomic, readwrite) NSMutableArray *tags;
+@property (strong, readwrite) NSMutableArray *tracks;
+@property (strong, readwrite) NSMutableArray *tags;
 
 @end
 
