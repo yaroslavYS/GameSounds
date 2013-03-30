@@ -89,8 +89,6 @@
 		B71038B61700C1E500813201 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				B71038B81700C23400813201 /* GameSoundsManager.h */,
-				B71038B91700C23400813201 /* GameSoundsManager.m */,
 				B71038BD1700DDDC00813201 /* JSONKit.h */,
 				B71038BE1700DDDC00813201 /* JSONKit.m */,
 				B75AC8C9170710D200A14D3F /* NSButton+AlternateImage.h */,
@@ -200,6 +198,8 @@
 		B759238E16FFA77200DD0690 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B71038B81700C23400813201 /* GameSoundsManager.h */,
+				B71038B91700C23400813201 /* GameSoundsManager.m */,
 				B759238B16FFA76500DD0690 /* Track.h */,
 				B759238C16FFA76500DD0690 /* Track.m */,
 				B759238F16FFC59500DD0690 /* Tag.h */,

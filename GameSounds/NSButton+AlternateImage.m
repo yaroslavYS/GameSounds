@@ -17,12 +17,12 @@
     [self setAlternateImage:img];
 }
 
-- (void)setPlaying:(BOOL)isPlaying
+- (void)setPlayingImage:(BOOL)isPlaying
 {
     NSImage *playImg = [NSImage imageNamed:@"play.png"];
     NSImage *stopImg = [NSImage imageNamed:@"stop.png"];
-    NSImage *const img = isPlaying ? playImg : stopImg;
-    NSImage *const altImg = isPlaying ? stopImg : playImg;
+    NSImage *const img = isPlaying ? stopImg : playImg;
+    NSImage *const altImg = isPlaying ? playImg : stopImg;
     if (img != self.image && altImg != self.alternateImage) {
         [self setImage:img];
         [self setAlternateImage:altImg];

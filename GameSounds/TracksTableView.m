@@ -6,32 +6,34 @@
 //  Copyright (c) 2013 Clear Sky. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVPlayer.h>
+#import <AVFoundation/AVPlayerItem.h>
+#import <AVFoundation/AVAsset.h>
+
 #import "TracksTableView.h"
 #import "GameSoundsManager.h"
 #import "TrackTableCellView.h"
 #import "Tag.h"
 #import "Track.h"
 #import "NSButton+AlternateImage.h"
-#import <AVFoundation/AVFoundation.h>
-#import <AVFoundation/AVPlayer.h>
-#import <AVFoundation/AVPlayerItem.h>
-#import <AVFoundation/AVAsset.h>
 
 @interface TracksTableView ()
-@property (strong) NSArray *tracks;
 @property (weak) IBOutlet NSArrayController *tagsArrayController;
-@property (weak) IBOutlet TracksTableView *tracksTable;
+@property (weak) IBOutlet TracksTableView *tracksTableView;
 @property (weak) IBOutlet NSTextField *tracksCountLabel;
 @property (weak) IBOutlet NSTextField *trackNameLabel;
+@property (weak) IBOutlet NSArrayController *tracksArrayController;
 
+@property (strong, nonatomic) AVPlayer *player;
+@property (strong, nonatomic) NSTimer *timer;
 
-@property (strong) IBOutlet NSButton *playButton;
-@property (strong) NSTimer *timer;
-@property (nonatomic, strong) AVPlayer *player;
-@property (weak) IBOutlet NSSlider *timelineSlider;
-@property (weak) IBOutlet NSTextField *timeLabel;
+@property (weak) IBOutlet NSSlider *seekSlider;
+@property (weak) IBOutlet NSTextField *currentTimeLabel;
+@property (weak) IBOutlet NSSlider *volumeSlider;
+
 @property (weak) NSButton *lastClickedPlayButton;
-@property (nonatomic, getter = isPlaying) BOOL playing;
+@property (nonatomic) BOOL isPlaying;
 @end
 
 
@@ -52,8 +54,8 @@
 {
     [self.tagsArrayController addObserver:self forKeyPath:@"selectionIndexes" options:NSKeyValueObservingOptionNew context:nil];
     
-    self.tracks = self.gameSoundManager.tracks;
-    self.tracksCountLabel.stringValue = [NSString stringWithFormat:@"(%ld tracks)",[self.tracks count]];
+    self.filteredTracks = self.gameSoundManager.tracks;
+    self.tracksCountLabel.stringValue = [NSString stringWithFormat:@"(%ld tracks)",[self.filteredTracks count]];
     
     
     [[NSNotificationCenter defaultCenter]
@@ -61,6 +63,7 @@
      selector:@selector(playerItemDidReachEnd:)
      name:AVPlayerItemDidPlayToEndTimeNotification
      object:self.player];
+    
 }
 
 - (void)playerItemDidReachEnd:(NSNotification *)notification {
@@ -80,14 +83,14 @@
                 [preds addObject:pred];
             }
             NSPredicate *pred = [NSCompoundPredicate orPredicateWithSubpredicates:preds];
-            self.tracks = [self.gameSoundManager.tracks filteredArrayUsingPredicate:pred];
+            self.filteredTracks = [self.gameSoundManager.tracks filteredArrayUsingPredicate:pred];
         }
         else
         {
-            self.tracks = self.gameSoundManager.tracks;
+            self.filteredTracks = self.gameSoundManager.tracks;
         }
-        [self.tracksTable reloadData];
-        [self.tracksCountLabel setStringValue:[NSString stringWithFormat:@"(%ld tracks)",[self.tracks count]]];
+        [self.tracksTableView reloadData];
+        [self.tracksCountLabel setStringValue:[NSString stringWithFormat:@"(%ld tracks)",[self.filteredTracks count]]];
     }
 }
 
@@ -98,15 +101,15 @@
 
 -(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
 {
-    return [self.tracks count];
+    return [self.filteredTracks count];
 }
 
 - (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {
     TrackTableCellView *cell = [tableView makeViewWithIdentifier:@"TrackCell" owner:self];
     
-    Track *track = self.tracks[row];
-    cell.titleTextField.stringValue = [track.fileName stringByDeletingPathExtension];
+    Track *track = self.filteredTracks[row];
+    cell.titleTextField.stringValue = track.name;
     cell.playButton.tag = cell.downloadButton.tag = row;
 
     cell.subTitleTextField.stringValue = [track.tags componentsJoinedByString:@", "];;
@@ -135,48 +138,106 @@
 
 - (IBAction)playClick:(NSButton *)sender
 {
-    BOOL otherTrackSelected = NO;
-    [self.playButton useAlternateImage];
-    if (self.playButton != sender) {
-        if (self.lastClickedPlayButton != sender) {
-            [self.lastClickedPlayButton useAlternateImage];
-            otherTrackSelected = YES;
-        }
-        self.lastClickedPlayButton = sender;
-        [sender useAlternateImage];
-    }
+    [self updatePlayingStatusButton:sender];
     
     NSInteger index = sender.tag;
     
-    Track *track = self.tracks[index];
-    [self.trackNameLabel setStringValue:[track.fileName stringByDeletingPathExtension]];
-    
-    if (self.isPlaying == YES) {
-        [self.player pause];
-        self.playing = NO;
-    }
+    Track *track = self.filteredTracks[index];
+    [self.trackNameLabel setStringValue:track.name];
     
     if (self.isPlaying == NO) {
-        if (otherTrackSelected) {
-            NSError *error;
-            NSURL *trackURL = [NSURL URLWithString:track.url];
-            self.player = [[AVPlayer alloc] initWithURL:trackURL];
-            
-            if (self.player == nil)
-                NSLog(@"%@",[error description]);
-            else
-            {
-                [self.player play];
-                CMTime duration = self.player.currentItem.asset.duration;
-                self.timelineSlider.maxValue = CMTimeGetSeconds(duration);
-            }
-        }
-        else {
+        [self.player pause];
+    }
+    
+    if (self.isPlaying == YES) {
+        NSURL *trackURL = [NSURL URLWithString:track.url];
+        
+        if ([[self urlOfCurrentlyPlayingInPlayer:self.player] isEqual:trackURL]) {
             [self.player play];
         }
-        
-        
-        self.playing = YES;
+        else {
+            [self startTimerAndPlayer:trackURL];
+        }
     }
 }
+
+-(NSURL *)urlOfCurrentlyPlayingInPlayer:(AVPlayer *)player{
+    // get current asset
+    AVAsset *currentPlayerAsset = player.currentItem.asset;
+    // make sure the current asset is an AVURLAsset
+    if (![currentPlayerAsset isKindOfClass:AVURLAsset.class]) return nil;
+    // return the NSURL
+    return [(AVURLAsset *)currentPlayerAsset URL];
+}
+
+- (void)updatePlayingStatusButton:(NSButton*)button
+{
+    self.isPlaying = !self.isPlaying;
+    
+    if (self.lastClickedPlayButton != button) {
+        [self.lastClickedPlayButton setPlayingImage:NO];
+        self.lastClickedPlayButton = button;
+        self.isPlaying = YES;
+    }
+
+    [self.lastClickedPlayButton setPlayingImage:self.isPlaying];
+}
+
+- (void)startTimerAndPlayer:(NSURL*)url
+{
+    NSError *error;
+    self.player = [AVPlayer playerWithURL:url];
+    
+    if (self.player == nil) {
+        NSLog(@"%@",[error description]);
+    }
+    else
+    {
+        [self.player play];
+        [self.player setVolume:[self.volumeSlider floatValue]];
+        [self updateMaxSeekSliderWithDuration:self.player.currentItem.asset.duration];
+        
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:1
+                                                      target:self
+                                                    selector:@selector(timerFired:)
+                                                    userInfo:nil
+                                                     repeats:YES];
+    }
+}
+
+- (void)stopTimerAndPlayer
+{
+    [self.timer invalidate];
+    self.timer = nil;
+    [self.player pause];
+    self.player = nil;
+}
+
+- (void)timerFired:(NSTimer*)timer
+{
+    NSTimeInterval currentTime = CMTimeGetSeconds([self.player currentTime]);
+    
+    NSInteger minutes = floor(currentTime/60);
+    NSInteger seconds = trunc(currentTime - minutes * 60);
+    
+    // update your UI with currentTime;
+    [self.currentTimeLabel setStringValue:[NSString stringWithFormat:@"%ld:%02ld", minutes, seconds]];
+    [self.seekSlider setDoubleValue:currentTime];
+}
+
+- (void)updateMaxSeekSliderWithDuration:(CMTime)duration
+{
+    [self.seekSlider setMaxValue:CMTimeGetSeconds(duration)];
+}
+
+- (IBAction)timelineChanged:(NSSlider *)sender
+{
+    [self.player seekToTime:CMTimeMakeWithSeconds([sender integerValue], 1)];
+}
+
+- (IBAction)volumeChanged:(NSSlider *)sender
+{
+    [self.player setVolume:[sender floatValue]];
+}
+
 @end

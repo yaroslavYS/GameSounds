@@ -11,5 +11,6 @@
 @interface NSButton (AlternateImage)
 
 - (void)useAlternateImage;
+- (void)setPlayingImage:(BOOL)isPlaying;
 
 @end

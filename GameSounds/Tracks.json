@@ -1,7 +1,7 @@
  [
   {
   "Duration": 75,
-  "Filename": "DST-10Class.mp3",
+  "Name": "DST-10Class",
   "Filesize": 1810432,
   "Tags": [
            {
@@ -17,7 +17,7 @@
   },
   {
   "Duration": 184,
-  "Filename": "DST-1990.mp3",
+  "Name": "DST-1990",
   "Filesize": 7389175,
   "Tags": [
            {
@@ -45,7 +45,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-2ndBallad.mp3",
+  "Name": "DST-2ndBallad",
   "Filesize": 2304000,
   "Tags": [
            {
@@ -69,7 +69,7 @@
   },
   {
   "Duration": 214,
-  "Filename": "DST-3rdBallad.mp3",
+  "Name": "DST-3rdBallad",
   "Filesize": 5140480,
   "Tags": [
            {
@@ -93,7 +93,7 @@
   },
   {
   "Duration": 171,
-  "Filename": "DST-4Tran.mp3",
+  "Name": "DST-4Tran",
   "Filesize": 4114432,
   "Tags": [
            {
@@ -125,7 +125,7 @@
   },
   {
   "Duration": 104,
-  "Filename": "DST-5thStreet.mp3",
+  "Name": "DST-5thStreet",
   "Filesize": 2513044,
   "Tags": [
            {
@@ -157,7 +157,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-909Dreams.mp3",
+  "Name": "DST-909Dreams",
   "Filesize": 3844881,
   "Tags": [
            {
@@ -189,7 +189,7 @@
   },
   {
   "Duration": 177,
-  "Filename": "DST-Aethereal.mp3",
+  "Name": "DST-Aethereal",
   "Filesize": 4259696,
   "Tags": [
            {
@@ -225,7 +225,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-Afternoon.mp3",
+  "Name": "DST-Afternoon",
   "Filesize": 2637602,
   "Tags": [
            {
@@ -257,7 +257,7 @@
   },
   {
   "Duration": 102,
-  "Filename": "DST-Alters.mp3",
+  "Name": "DST-Alters",
   "Filesize": 2457886,
   "Tags": [
            {
@@ -293,7 +293,7 @@
   },
   {
   "Duration": 40,
-  "Filename": "DST-AmbientKingdom.mp3",
+  "Name": "DST-AmbientKingdom",
   "Filesize": 962560,
   "Tags": [
            {
@@ -325,7 +325,7 @@
   },
   {
   "Duration": 45,
-  "Filename": "DST-AncientCurse-I.mp3",
+  "Name": "DST-AncientCurse-I",
   "Filesize": 1263890,
   "Tags": [
            {
@@ -349,7 +349,7 @@
   },
   {
   "Duration": 13,
-  "Filename": "DST-AncientCurse-II.mp3",
+  "Name": "DST-AncientCurse-II",
   "Filesize": 387639,
   "Tags": [
            {
@@ -373,7 +373,7 @@
   },
   {
   "Duration": 22,
-  "Filename": "DST-AncientCurse-III.mp3",
+  "Name": "DST-AncientCurse-III",
   "Filesize": 627547,
   "Tags": [
            {
@@ -397,7 +397,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-AngryMod.mp3",
+  "Name": "DST-AngryMod",
   "Filesize": 2304000,
   "Tags": [
            {
@@ -441,7 +441,7 @@
   },
   {
   "Duration": 220,
-  "Filename": "DST-AngryRobotIII.mp3",
+  "Name": "DST-AngryRobotIII",
   "Filesize": 5275648,
   "Tags": [
            {
@@ -477,7 +477,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-Announce.mp3",
+  "Name": "DST-Announce",
   "Filesize": 2306048,
   "Tags": [
            {
@@ -509,7 +509,7 @@
   },
   {
   "Duration": 94,
-  "Filename": "DST-Arch-Delerium.mp3",
+  "Name": "DST-Arch-Delerium",
   "Filesize": 2267290,
   "Tags": [
            {
@@ -537,7 +537,7 @@
   },
   {
   "Duration": 304,
-  "Filename": "DST-ArcOfDawn.mp3",
+  "Name": "DST-ArcOfDawn",
   "Filesize": 8515584,
   "Tags": [
            {
@@ -569,7 +569,7 @@
   },
   {
   "Duration": 167,
-  "Filename": "DST-Ariely.mp3",
+  "Name": "DST-Ariely",
   "Filesize": 4007936,
   "Tags": [
            {
@@ -597,7 +597,7 @@
   },
   {
   "Duration": 111,
-  "Filename": "DST-Aronara.mp3",
+  "Name": "DST-Aronara",
   "Filesize": 3123200,
   "Tags": [
            {
@@ -637,7 +637,7 @@
   },
   {
   "Duration": 144,
-  "Filename": "DST-Assembly.mp3",
+  "Name": "DST-Assembly",
   "Filesize": 3460349,
   "Tags": [
            {
@@ -665,7 +665,7 @@
   },
   {
   "Duration": 103,
-  "Filename": "DST-Aurora.mp3",
+  "Name": "DST-Aurora",
   "Filesize": 4139019,
   "Tags": [
            {
@@ -697,7 +697,7 @@
   },
   {
   "Duration": 144,
-  "Filename": "DST-Away.mp3",
+  "Name": "DST-Away",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -733,7 +733,7 @@
   },
   {
   "Duration": 341,
-  "Filename": "DST-Azimuth.mp3",
+  "Name": "DST-Azimuth",
   "Filesize": 9564160,
   "Tags": [
            {
@@ -757,7 +757,7 @@
   },
   {
   "Duration": 266,
-  "Filename": "DST-Azum.mp3",
+  "Name": "DST-Azum",
   "Filesize": 6381568,
   "Tags": [
            {
@@ -801,7 +801,7 @@
   },
   {
   "Duration": 92,
-  "Filename": "DST-BarbarianBros.mp3",
+  "Name": "DST-BarbarianBros",
   "Filesize": 2213888,
   "Tags": [
            {
@@ -829,7 +829,7 @@
   },
   {
   "Duration": 232,
-  "Filename": "DST-BattleAxe.mp3",
+  "Name": "DST-BattleAxe",
   "Filesize": 5570560,
   "Tags": [
            {
@@ -857,7 +857,7 @@
   },
   {
   "Duration": 137,
-  "Filename": "DST-Beneathere.mp3",
+  "Name": "DST-Beneathere",
   "Filesize": 3842048,
   "Tags": [
            {
@@ -885,7 +885,7 @@
   },
   {
   "Duration": 135,
-  "Filename": "DST-BeyondTheseForests.mp3",
+  "Name": "DST-BeyondTheseForests",
   "Filesize": 3251028,
   "Tags": [
            {
@@ -925,7 +925,7 @@
   },
   {
   "Duration": 89,
-  "Filename": "DST-Birge.mp3",
+  "Name": "DST-Birge",
   "Filesize": 2498560,
   "Tags": [
            {
@@ -961,7 +961,7 @@
   },
   {
   "Duration": 175,
-  "Filename": "DST-Blam.mp3",
+  "Name": "DST-Blam",
   "Filesize": 5619840,
   "Tags": [
            {
@@ -985,7 +985,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-Blanket.mp3",
+  "Name": "DST-Blanket",
   "Filesize": 2691072,
   "Tags": [
            {
@@ -1021,7 +1021,7 @@
   },
   {
   "Duration": 72,
-  "Filename": "DST-BlazeOn.mp3",
+  "Name": "DST-BlazeOn",
   "Filesize": 1728512,
   "Tags": [
            {
@@ -1053,7 +1053,7 @@
   },
   {
   "Duration": 271,
-  "Filename": "DST-Blekinge.mp3",
+  "Name": "DST-Blekinge",
   "Filesize": 5419008,
   "Tags": [
            {
@@ -1081,7 +1081,7 @@
   },
   {
   "Duration": 151,
-  "Filename": "DST-Blight.mp3",
+  "Name": "DST-Blight",
   "Filesize": 3622912,
   "Tags": [
            {
@@ -1113,7 +1113,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-BlinkWorld.mp3",
+  "Name": "DST-BlinkWorld",
   "Filesize": 1646592,
   "Tags": [
            {
@@ -1141,7 +1141,7 @@
   },
   {
   "Duration": 125,
-  "Filename": "DST-BloodAndIron.mp3",
+  "Name": "DST-BloodAndIron",
   "Filesize": 2996410,
   "Tags": [
            {
@@ -1181,7 +1181,7 @@
   },
   {
   "Duration": 265,
-  "Filename": "DST-BlueChill.mp3",
+  "Name": "DST-BlueChill",
   "Filesize": 6356992,
   "Tags": [
            {
@@ -1209,7 +1209,7 @@
   },
   {
   "Duration": 118,
-  "Filename": "DST-BlueMist.mp3",
+  "Name": "DST-BlueMist",
   "Filesize": 2840576,
   "Tags": [
            {
@@ -1249,7 +1249,7 @@
   },
   {
   "Duration": 194,
-  "Filename": "DST-BoneTower.mp3",
+  "Name": "DST-BoneTower",
   "Filesize": 6203018,
   "Tags": [
            {
@@ -1289,7 +1289,7 @@
   },
   {
   "Duration": 48,
-  "Filename": "DST-BossRide.mp3",
+  "Name": "DST-BossRide",
   "Filesize": 1153024,
   "Tags": [
            {
@@ -1313,7 +1313,7 @@
   },
   {
   "Duration": 199,
-  "Filename": "DST-BreakIt.mp3",
+  "Name": "DST-BreakIt",
   "Filesize": 3192832,
   "Tags": [
            {
@@ -1345,7 +1345,7 @@
   },
   {
   "Duration": 111,
-  "Filename": "DST-BreakOut.mp3",
+  "Name": "DST-BreakOut",
   "Filesize": 3123200,
   "Tags": [
            {
@@ -1369,7 +1369,7 @@
   },
   {
   "Duration": 105,
-  "Filename": "DST-BreedingGround.mp3",
+  "Name": "DST-BreedingGround",
   "Filesize": 4228359,
   "Tags": [
            {
@@ -1405,7 +1405,7 @@
   },
   {
   "Duration": 139,
-  "Filename": "DST-BrightAge.mp3",
+  "Name": "DST-BrightAge",
   "Filesize": 3891200,
   "Tags": [
            {
@@ -1437,7 +1437,7 @@
   },
   {
   "Duration": 106,
-  "Filename": "DST-BrokenHill.mp3",
+  "Name": "DST-BrokenHill",
   "Filesize": 3404202,
   "Tags": [
            {
@@ -1469,7 +1469,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-BrokenTrust.mp3",
+  "Name": "DST-BrokenTrust",
   "Filesize": 3461120,
   "Tags": [
            {
@@ -1505,7 +1505,7 @@
   },
   {
   "Duration": 13,
-  "Filename": "DST-Bronzed.mp3",
+  "Name": "DST-Bronzed",
   "Filesize": 329728,
   "Tags": [
            {
@@ -1533,7 +1533,7 @@
   },
   {
   "Duration": 109,
-  "Filename": "DST-ByTheField.mp3",
+  "Name": "DST-ByTheField",
   "Filesize": 3514705,
   "Tags": [
            {
@@ -1565,7 +1565,7 @@
   },
   {
   "Duration": 64,
-  "Filename": "DST-Canopy.mp3",
+  "Name": "DST-Canopy",
   "Filesize": 1536000,
   "Tags": [
            {
@@ -1597,7 +1597,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-CauseWay.mp3",
+  "Name": "DST-CauseWay",
   "Filesize": 1974272,
   "Tags": [
            {
@@ -1625,7 +1625,7 @@
   },
   {
   "Duration": 164,
-  "Filename": "DST-ChloroformEden.mp3",
+  "Name": "DST-ChloroformEden",
   "Filesize": 5270133,
   "Tags": [
            {
@@ -1653,7 +1653,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-ClickThenAction.mp3",
+  "Name": "DST-ClickThenAction",
   "Filesize": 1976320,
   "Tags": [
            {
@@ -1681,7 +1681,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-ClockTower.mp3",
+  "Name": "DST-ClockTower",
   "Filesize": 2637592,
   "Tags": [
            {
@@ -1721,7 +1721,7 @@
   },
   {
   "Duration": 35,
-  "Filename": "DST-ClubNight.mp3",
+  "Name": "DST-ClubNight",
   "Filesize": 1439526,
   "Tags": [
            {
@@ -1753,7 +1753,7 @@
   },
   {
   "Duration": 90,
-  "Filename": "DST-Collidescope.mp3",
+  "Name": "DST-Collidescope",
   "Filesize": 2545664,
   "Tags": [
            {
@@ -1781,7 +1781,7 @@
   },
   {
   "Duration": 109,
-  "Filename": "DST-ConFuze.mp3",
+  "Name": "DST-ConFuze",
   "Filesize": 2633728,
   "Tags": [
            {
@@ -1805,7 +1805,7 @@
   },
   {
   "Duration": 61,
-  "Filename": "DST-CreepAlong.mp3",
+  "Name": "DST-CreepAlong",
   "Filesize": 1485492,
   "Tags": [
            {
@@ -1837,7 +1837,7 @@
   },
   {
   "Duration": 223,
-  "Filename": "DST-Crisson.mp3",
+  "Name": "DST-Crisson",
   "Filesize": 6242304,
   "Tags": [
            {
@@ -1857,7 +1857,7 @@
   },
   {
   "Duration": 103,
-  "Filename": "DST-CrossedStars.mp3",
+  "Name": "DST-CrossedStars",
   "Filesize": 2469888,
   "Tags": [
            {
@@ -1881,7 +1881,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-Crow.mp3",
+  "Name": "DST-Crow",
   "Filesize": 2306048,
   "Tags": [
            {
@@ -1897,7 +1897,7 @@
   },
   {
   "Duration": 377,
-  "Filename": "DST-CryolithicBreak.mp3",
+  "Name": "DST-CryolithicBreak",
   "Filesize": 10564005,
   "Tags": [
            {
@@ -1921,7 +1921,7 @@
   },
   {
   "Duration": 138,
-  "Filename": "DST-Crysalis.mp3",
+  "Name": "DST-Crysalis",
   "Filesize": 3885056,
   "Tags": [
            {
@@ -1949,7 +1949,7 @@
   },
   {
   "Duration": 48,
-  "Filename": "DST-CrystalCavern.mp3",
+  "Name": "DST-CrystalCavern",
   "Filesize": 1153024,
   "Tags": [
            {
@@ -1977,7 +1977,7 @@
   },
   {
   "Duration": 133,
-  "Filename": "DST-CursedStairs.mp3",
+  "Name": "DST-CursedStairs",
   "Filesize": 4258448,
   "Tags": [
            {
@@ -2009,7 +2009,7 @@
   },
   {
   "Duration": 133,
-  "Filename": "DST-Cv-X.mp3",
+  "Name": "DST-Cv-X",
   "Filesize": 3737600,
   "Tags": [
            {
@@ -2037,7 +2037,7 @@
   },
   {
   "Duration": 224,
-  "Filename": "DST-Cyberium.mp3",
+  "Name": "DST-Cyberium",
   "Filesize": 5386240,
   "Tags": [
            {
@@ -2073,7 +2073,7 @@
   },
   {
   "Duration": 206,
-  "Filename": "DST-CyberOps.mp3",
+  "Name": "DST-CyberOps",
   "Filesize": 8233453,
   "Tags": [
            {
@@ -2109,7 +2109,7 @@
   },
   {
   "Duration": 219,
-  "Filename": "DST-Cygnosphere.mp3",
+  "Name": "DST-Cygnosphere",
   "Filesize": 7026174,
   "Tags": [
            {
@@ -2137,7 +2137,7 @@
   },
   {
   "Duration": 139,
-  "Filename": "DST-DaFretFunk.mp3",
+  "Name": "DST-DaFretFunk",
   "Filesize": 3351262,
   "Tags": [
            {
@@ -2173,7 +2173,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-Dangeroz.mp3",
+  "Name": "DST-Dangeroz",
   "Filesize": 1646592,
   "Tags": [
            {
@@ -2197,7 +2197,7 @@
   },
   {
   "Duration": 88,
-  "Filename": "DST-Dark2Light.mp3",
+  "Name": "DST-Dark2Light",
   "Filesize": 2130616,
   "Tags": [
            {
@@ -2221,7 +2221,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-DarkDance.mp3",
+  "Name": "DST-DarkDance",
   "Filesize": 2691072,
   "Tags": [
            {
@@ -2261,7 +2261,7 @@
   },
   {
   "Duration": 162,
-  "Filename": "DST-Darkening.mp3",
+  "Name": "DST-Darkening",
   "Filesize": 3897344,
   "Tags": [
            {
@@ -2293,7 +2293,7 @@
   },
   {
   "Duration": 75,
-  "Filename": "DST-Darkess.mp3",
+  "Name": "DST-Darkess",
   "Filesize": 2115584,
   "Tags": [
            {
@@ -2321,7 +2321,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-DarkestKnight.mp3",
+  "Name": "DST-DarkestKnight",
   "Filesize": 2691072,
   "Tags": [
            {
@@ -2349,7 +2349,7 @@
   },
   {
   "Duration": 250,
-  "Filename": "DST-DarkFuture.mp3",
+  "Name": "DST-DarkFuture",
   "Filesize": 2998615,
   "Tags": [
            {
@@ -2377,7 +2377,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-DarkHusks.mp3",
+  "Name": "DST-DarkHusks",
   "Filesize": 2691072,
   "Tags": [
            {
@@ -2397,7 +2397,7 @@
   },
   {
   "Duration": 104,
-  "Filename": "DST-DarkMountainHaze.mp3",
+  "Name": "DST-DarkMountainHaze",
   "Filesize": 2499875,
   "Tags": [
            {
@@ -2421,7 +2421,7 @@
   },
   {
   "Duration": 72,
-  "Filename": "DST-Darko(Boss).mp3",
+  "Name": "DST-Darko(Boss)",
   "Filesize": 2019328,
   "Tags": [
            {
@@ -2457,7 +2457,7 @@
   },
   {
   "Duration": 109,
-  "Filename": "DST-DarkRevile.mp3",
+  "Name": "DST-DarkRevile",
   "Filesize": 3515307,
   "Tags": [
            {
@@ -2485,7 +2485,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-DarkRoom.mp3",
+  "Name": "DST-DarkRoom",
   "Filesize": 2963456,
   "Tags": [
            {
@@ -2517,7 +2517,7 @@
   },
   {
   "Duration": 205,
-  "Filename": "DST-Darkseid.mp3",
+  "Name": "DST-Darkseid",
   "Filesize": 3274752,
   "Tags": [
            {
@@ -2545,7 +2545,7 @@
   },
   {
   "Duration": 64,
-  "Filename": "DST-DarkSeraphim.mp3",
+  "Name": "DST-DarkSeraphim",
   "Filesize": 1540035,
   "Tags": [
            {
@@ -2573,7 +2573,7 @@
   },
   {
   "Duration": 43,
-  "Filename": "DST-DarkSpell-I.mp3",
+  "Name": "DST-DarkSpell-I",
   "Filesize": 1202176,
   "Tags": [
            {
@@ -2589,7 +2589,7 @@
   },
   {
   "Duration": 197,
-  "Filename": "DST-DarkStart.mp3",
+  "Name": "DST-DarkStart",
   "Filesize": 4727396,
   "Tags": [
            {
@@ -2613,7 +2613,7 @@
   },
   {
   "Duration": 247,
-  "Filename": "DST-DarkTemple.mp3",
+  "Name": "DST-DarkTemple",
   "Filesize": 5926912,
   "Tags": [
            {
@@ -2641,7 +2641,7 @@
   },
   {
   "Duration": 150,
-  "Filename": "DST-DasElectron.mp3",
+  "Name": "DST-DasElectron",
   "Filesize": 4804303,
   "Tags": [
            {
@@ -2665,7 +2665,7 @@
   },
   {
   "Duration": 147,
-  "Filename": "DST-DatBeat.mp3",
+  "Name": "DST-DatBeat",
   "Filesize": 3534328,
   "Tags": [
            {
@@ -2693,7 +2693,7 @@
   },
   {
   "Duration": 132,
-  "Filename": "DST-DaysOfRealms.mp3",
+  "Name": "DST-DaysOfRealms",
   "Filesize": 3170304,
   "Tags": [
            {
@@ -2729,7 +2729,7 @@
   },
   {
   "Duration": 249,
-  "Filename": "DST-DeadToTheWorld.mp3",
+  "Name": "DST-DeadToTheWorld",
   "Filesize": 5985658,
   "Tags": [
            {
@@ -2749,7 +2749,7 @@
   },
   {
   "Duration": 34,
-  "Filename": "DST-DeepWounds.mp3",
+  "Name": "DST-DeepWounds",
   "Filesize": 823296,
   "Tags": [
            {
@@ -2765,7 +2765,7 @@
   },
   {
   "Duration": 98,
-  "Filename": "DST-Defunkt.mp3",
+  "Name": "DST-Defunkt",
   "Filesize": 2758656,
   "Tags": [
            {
@@ -2793,7 +2793,7 @@
   },
   {
   "Duration": 116,
-  "Filename": "DST-DeMarche.mp3",
+  "Name": "DST-DeMarche",
   "Filesize": 3735163,
   "Tags": [
            {
@@ -2825,7 +2825,7 @@
   },
   {
   "Duration": 77,
-  "Filename": "DST-Derelict.mp3",
+  "Name": "DST-Derelict",
   "Filesize": 3086285,
   "Tags": [
            {
@@ -2857,7 +2857,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-Desert.mp3",
+  "Name": "DST-Desert",
   "Filesize": 3076459,
   "Tags": [
            {
@@ -2881,7 +2881,7 @@
   },
   {
   "Duration": 249,
-  "Filename": "DST-Destiny.mp3",
+  "Name": "DST-Destiny",
   "Filesize": 6977536,
   "Tags": [
            {
@@ -2909,7 +2909,7 @@
   },
   {
   "Duration": 112,
-  "Filename": "DST-Dethrone.mp3",
+  "Name": "DST-Dethrone",
   "Filesize": 3604480,
   "Tags": [
            {
@@ -2937,7 +2937,7 @@
   },
   {
   "Duration": 181,
-  "Filename": "DST-DFear.mp3",
+  "Name": "DST-DFear",
   "Filesize": 5077439,
   "Tags": [
            {
@@ -2957,7 +2957,7 @@
   },
   {
   "Duration": 288,
-  "Filename": "DST-DFree.mp3",
+  "Name": "DST-DFree",
   "Filesize": 6916035,
   "Tags": [
            {
@@ -2981,7 +2981,7 @@
   },
   {
   "Duration": 150,
-  "Filename": "DST-Disarono.mp3",
+  "Name": "DST-Disarono",
   "Filesize": 3610814,
   "Tags": [
            {
@@ -3005,7 +3005,7 @@
   },
   {
   "Duration": 170,
-  "Filename": "DST-DNX.mp3",
+  "Name": "DST-DNX",
   "Filesize": 4086667,
   "Tags": [
            {
@@ -3029,7 +3029,7 @@
   },
   {
   "Duration": 183,
-  "Filename": "DST-DontStop.mp3",
+  "Name": "DST-DontStop",
   "Filesize": 5138432,
   "Tags": [
            {
@@ -3049,7 +3049,7 @@
   },
   {
   "Duration": 261,
-  "Filename": "DST-DoomCity.mp3",
+  "Name": "DST-DoomCity",
   "Filesize": 6258688,
   "Tags": [
            {
@@ -3081,7 +3081,7 @@
   },
   {
   "Duration": 27,
-  "Filename": "DST-DoomNGloom.mp3",
+  "Name": "DST-DoomNGloom",
   "Filesize": 662325,
   "Tags": [
            {
@@ -3105,7 +3105,7 @@
   },
   {
   "Duration": 277,
-  "Filename": "DST-DownBeat.mp3",
+  "Name": "DST-DownBeat",
   "Filesize": 6656000,
   "Tags": [
            {
@@ -3125,7 +3125,7 @@
   },
   {
   "Duration": 89,
-  "Filename": "DST-Downed.mp3",
+  "Name": "DST-Downed",
   "Filesize": 2140160,
   "Tags": [
            {
@@ -3149,7 +3149,7 @@
   },
   {
   "Duration": 166,
-  "Filename": "DST-DreamInGreen.mp3",
+  "Name": "DST-DreamInGreen",
   "Filesize": 3992415,
   "Tags": [
            {
@@ -3173,7 +3173,7 @@
   },
   {
   "Duration": 63,
-  "Filename": "DST-Dredge.mp3",
+  "Name": "DST-Dredge",
   "Filesize": 1777664,
   "Tags": [
            {
@@ -3193,7 +3193,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-Drogs.mp3",
+  "Name": "DST-Drogs",
   "Filesize": 2635776,
   "Tags": [
            {
@@ -3217,7 +3217,7 @@
   },
   {
   "Duration": 211,
-  "Filename": "DST-DrumNBasic.mp3",
+  "Name": "DST-DrumNBasic",
   "Filesize": 5924864,
   "Tags": [
            {
@@ -3237,7 +3237,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-DunJun.mp3",
+  "Name": "DST-DunJun",
   "Filesize": 1646592,
   "Tags": [
            {
@@ -3265,7 +3265,7 @@
   },
   {
   "Duration": 24,
-  "Filename": "DST-DustLoop.mp3",
+  "Name": "DST-DustLoop",
   "Filesize": 772096,
   "Tags": [
            {
@@ -3281,7 +3281,7 @@
   },
   {
   "Duration": 272,
-  "Filename": "DST-DXT.mp3",
+  "Name": "DST-DXT",
   "Filesize": 6519189,
   "Tags": [
            {
@@ -3301,7 +3301,7 @@
   },
   {
   "Duration": 124,
-  "Filename": "DST-Echorex.mp3",
+  "Name": "DST-Echorex",
   "Filesize": 2991401,
   "Tags": [
            {
@@ -3325,7 +3325,7 @@
   },
   {
   "Duration": 238,
-  "Filename": "DST-ElectriKaos.mp3",
+  "Name": "DST-ElectriKaos",
   "Filesize": 5720064,
   "Tags": [
            {
@@ -3349,7 +3349,7 @@
   },
   {
   "Duration": 158,
-  "Filename": "DST-ElectroRock.mp3",
+  "Name": "DST-ElectroRock",
   "Filesize": 3789492,
   "Tags": [
            {
@@ -3381,7 +3381,7 @@
   },
   {
   "Duration": 194,
-  "Filename": "DST-ElektroHauz.mp3",
+  "Name": "DST-ElektroHauz",
   "Filesize": 5435392,
   "Tags": [
            {
@@ -3405,7 +3405,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-Elkland.mp3",
+  "Name": "DST-Elkland",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -3433,7 +3433,7 @@
   },
   {
   "Duration": 269,
-  "Filename": "DST-Elysium.mp3",
+  "Name": "DST-Elysium",
   "Filesize": 6463488,
   "Tags": [
            {
@@ -3457,7 +3457,7 @@
   },
   {
   "Duration": 272,
-  "Filename": "DST-EndingCredits.mp3",
+  "Name": "DST-EndingCredits",
   "Filesize": 6520832,
   "Tags": [
            {
@@ -3481,7 +3481,7 @@
   },
   {
   "Duration": 12,
-  "Filename": "DST-EndoLoop.mp3",
+  "Name": "DST-EndoLoop",
   "Filesize": 288768,
   "Tags": [
            {
@@ -3505,7 +3505,7 @@
   },
   {
   "Duration": 104,
-  "Filename": "DST-EndTimes.mp3",
+  "Name": "DST-EndTimes",
   "Filesize": 2510848,
   "Tags": [
            {
@@ -3529,7 +3529,7 @@
   },
   {
   "Duration": 328,
-  "Filename": "DST-Entropy.mp3",
+  "Name": "DST-Entropy",
   "Filesize": 7874560,
   "Tags": [
            {
@@ -3557,7 +3557,7 @@
   },
   {
   "Duration": 264,
-  "Filename": "DST-EphezasTrance.mp3",
+  "Name": "DST-EphezasTrance",
   "Filesize": 7396799,
   "Tags": [
            {
@@ -3581,7 +3581,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-Eretria.mp3",
+  "Name": "DST-Eretria",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -3609,7 +3609,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-EventHorizon.mp3",
+  "Name": "DST-EventHorizon",
   "Filesize": 3844881,
   "Tags": [
            {
@@ -3645,7 +3645,7 @@
   },
   {
   "Duration": 194,
-  "Filename": "DST-ExoPlanet.mp3",
+  "Name": "DST-ExoPlanet",
   "Filesize": 4664077,
   "Tags": [
            {
@@ -3669,7 +3669,7 @@
   },
   {
   "Duration": 128,
-  "Filename": "DST-ExplainThis.mp3",
+  "Name": "DST-ExplainThis",
   "Filesize": 5136384,
   "Tags": [
            {
@@ -3689,7 +3689,7 @@
   },
   {
   "Duration": 216,
-  "Filename": "DST-Factor.mp3",
+  "Name": "DST-Factor",
   "Filesize": 5187584,
   "Tags": [
            {
@@ -3713,7 +3713,7 @@
   },
   {
   "Duration": 98,
-  "Filename": "DST-FallenRobot.mp3",
+  "Name": "DST-FallenRobot",
   "Filesize": 2347008,
   "Tags": [
            {
@@ -3733,7 +3733,7 @@
   },
   {
   "Duration": 233,
-  "Filename": "DST-FatMan.mp3",
+  "Name": "DST-FatMan",
   "Filesize": 5607424,
   "Tags": [
            {
@@ -3757,7 +3757,7 @@
   },
   {
   "Duration": 184,
-  "Filename": "DST-FinalMetropolis.mp3",
+  "Name": "DST-FinalMetropolis",
   "Filesize": 7364098,
   "Tags": [
            {
@@ -3785,7 +3785,7 @@
   },
   {
   "Duration": 158,
-  "Filename": "DST-FinalShift.mp3",
+  "Name": "DST-FinalShift",
   "Filesize": 3789494,
   "Tags": [
            {
@@ -3817,7 +3817,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-Flak.mp3",
+  "Name": "DST-Flak",
   "Filesize": 2966321,
   "Tags": [
            {
@@ -3841,7 +3841,7 @@
   },
   {
   "Duration": 89,
-  "Filename": "DST-FlashForward.mp3",
+  "Name": "DST-FlashForward",
   "Filesize": 2500617,
   "Tags": [
            {
@@ -3865,7 +3865,7 @@
   },
   {
   "Duration": 109,
-  "Filename": "DST-FlyingAces.mp3",
+  "Name": "DST-FlyingAces",
   "Filesize": 3514368,
   "Tags": [
            {
@@ -3885,7 +3885,7 @@
   },
   {
   "Duration": 150,
-  "Filename": "DST-FlyingCobra.mp3",
+  "Name": "DST-FlyingCobra",
   "Filesize": 3618339,
   "Tags": [
            {
@@ -3917,7 +3917,7 @@
   },
   {
   "Duration": 125,
-  "Filename": "DST-FogOfPeace.mp3",
+  "Name": "DST-FogOfPeace",
   "Filesize": 3507913,
   "Tags": [
            {
@@ -3953,7 +3953,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-Footsteps.mp3",
+  "Name": "DST-Footsteps",
   "Filesize": 2306048,
   "Tags": [
            {
@@ -3977,7 +3977,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-ForestRays.mp3",
+  "Name": "DST-ForestRays",
   "Filesize": 1978897,
   "Tags": [
            {
@@ -3997,7 +3997,7 @@
   },
   {
   "Duration": 206,
-  "Filename": "DST-FourSunRays.mp3",
+  "Name": "DST-FourSunRays",
   "Filesize": 4953721,
   "Tags": [
            {
@@ -4025,7 +4025,7 @@
   },
   {
   "Duration": 84,
-  "Filename": "DST-FromThereTheValleys.mp3",
+  "Name": "DST-FromThereTheValleys",
   "Filesize": 2031616,
   "Tags": [
            {
@@ -4057,7 +4057,7 @@
   },
   {
   "Duration": 170,
-  "Filename": "DST-Frontier.mp3",
+  "Name": "DST-Frontier",
   "Filesize": 6798808,
   "Tags": [
            {
@@ -4089,7 +4089,7 @@
   },
   {
   "Duration": 192,
-  "Filename": "DST-Frozen.mp3",
+  "Name": "DST-Frozen",
   "Filesize": 4612096,
   "Tags": [
            {
@@ -4109,7 +4109,7 @@
   },
   {
   "Duration": 27,
-  "Filename": "DST-FrozenJellyFish.mp3",
+  "Name": "DST-FrozenJellyFish",
   "Filesize": 662321,
   "Tags": [
            {
@@ -4137,7 +4137,7 @@
   },
   {
   "Duration": 165,
-  "Filename": "DST-Frozeth.mp3",
+  "Name": "DST-Frozeth",
   "Filesize": 4618240,
   "Tags": [
            {
@@ -4157,7 +4157,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-FunkyClouds.mp3",
+  "Name": "DST-FunkyClouds",
   "Filesize": 2304000,
   "Tags": [
            {
@@ -4181,7 +4181,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-FunkyData.mp3",
+  "Name": "DST-FunkyData",
   "Filesize": 1646592,
   "Tags": [
            {
@@ -4209,7 +4209,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-GameForest.mp3",
+  "Name": "DST-GameForest",
   "Filesize": 1646592,
   "Tags": [
            {
@@ -4233,7 +4233,7 @@
   },
   {
   "Duration": 118,
-  "Filename": "DST-GameOn.mp3",
+  "Name": "DST-GameOn",
   "Filesize": 2838528,
   "Tags": [
            {
@@ -4253,7 +4253,7 @@
   },
   {
   "Duration": 34,
-  "Filename": "DST-GangsterCredit.mp3",
+  "Name": "DST-GangsterCredit",
   "Filesize": 555008,
   "Tags": [
            {
@@ -4273,7 +4273,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-GhostHouse.mp3",
+  "Name": "DST-GhostHouse",
   "Filesize": 2306048,
   "Tags": [
            {
@@ -4293,7 +4293,7 @@
   },
   {
   "Duration": 179,
-  "Filename": "DST-GhostOfStar.mp3",
+  "Name": "DST-GhostOfStar",
   "Filesize": 4302848,
   "Tags": [
            {
@@ -4313,7 +4313,7 @@
   },
   {
   "Duration": 80,
-  "Filename": "DST-Glory.mp3",
+  "Name": "DST-Glory",
   "Filesize": 1924426,
   "Tags": [
            {
@@ -4333,7 +4333,7 @@
   },
   {
   "Duration": 24,
-  "Filename": "DST-Grazzy.mp3",
+  "Name": "DST-Grazzy",
   "Filesize": 580198,
   "Tags": [
            {
@@ -4349,7 +4349,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-GreenCats.mp3",
+  "Name": "DST-GreenCats",
   "Filesize": 2966327,
   "Tags": [
            {
@@ -4385,7 +4385,7 @@
   },
   {
   "Duration": 89,
-  "Filename": "DST-GreenSky.mp3",
+  "Name": "DST-GreenSky",
   "Filesize": 2140160,
   "Tags": [
            {
@@ -4413,7 +4413,7 @@
   },
   {
   "Duration": 158,
-  "Filename": "DST-GreenTrain.mp3",
+  "Name": "DST-GreenTrain",
   "Filesize": 3789492,
   "Tags": [
            {
@@ -4433,7 +4433,7 @@
   },
   {
   "Duration": 106,
-  "Filename": "DST-Half-Life.mp3",
+  "Name": "DST-Half-Life",
   "Filesize": 2553856,
   "Tags": [
            {
@@ -4453,7 +4453,7 @@
   },
   {
   "Duration": 159,
-  "Filename": "DST-HappyTragedy.mp3",
+  "Name": "DST-HappyTragedy",
   "Filesize": 3811328,
   "Tags": [
            {
@@ -4477,7 +4477,7 @@
   },
   {
   "Duration": 137,
-  "Filename": "DST-HardOck.mp3",
+  "Name": "DST-HardOck",
   "Filesize": 3291136,
   "Tags": [
            {
@@ -4505,7 +4505,7 @@
   },
   {
   "Duration": 104,
-  "Filename": "DST-HeartOfDoom.mp3",
+  "Name": "DST-HeartOfDoom",
   "Filesize": 4178204,
   "Tags": [
            {
@@ -4529,7 +4529,7 @@
   },
   {
   "Duration": 168,
-  "Filename": "DST-Hematoma.mp3",
+  "Name": "DST-Hematoma",
   "Filesize": 4035885,
   "Tags": [
            {
@@ -4553,7 +4553,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-HexedUp.mp3",
+  "Name": "DST-HexedUp",
   "Filesize": 1646592,
   "Tags": [
            {
@@ -4573,7 +4573,7 @@
   },
   {
   "Duration": 29,
-  "Filename": "DST-HollowBreath.mp3",
+  "Name": "DST-HollowBreath",
   "Filesize": 713103,
   "Tags": [
            {
@@ -4593,7 +4593,7 @@
   },
   {
   "Duration": 74,
-  "Filename": "DST-HollowRequiem.mp3",
+  "Name": "DST-HollowRequiem",
   "Filesize": 1780149,
   "Tags": [
            {
@@ -4617,7 +4617,7 @@
   },
   {
   "Duration": 81,
-  "Filename": "DST-HonorGuard.mp3",
+  "Name": "DST-HonorGuard",
   "Filesize": 3253469,
   "Tags": [
            {
@@ -4657,7 +4657,7 @@
   },
   {
   "Duration": 132,
-  "Filename": "DST-Horizon.mp3",
+  "Name": "DST-Horizon",
   "Filesize": 3698688,
   "Tags": [
            {
@@ -4689,7 +4689,7 @@
   },
   {
   "Duration": 133,
-  "Filename": "DST-Horizon515.mp3",
+  "Name": "DST-Horizon515",
   "Filesize": 5321322,
   "Tags": [
            {
@@ -4717,7 +4717,7 @@
   },
   {
   "Duration": 128,
-  "Filename": "DST-IceCavern.mp3",
+  "Name": "DST-IceCavern",
   "Filesize": 3076035,
   "Tags": [
            {
@@ -4753,7 +4753,7 @@
   },
   {
   "Duration": 129,
-  "Filename": "DST-IceGun.mp3",
+  "Name": "DST-IceGun",
   "Filesize": 5164588,
   "Tags": [
            {
@@ -4789,7 +4789,7 @@
   },
   {
   "Duration": 174,
-  "Filename": "DST-IceStar.mp3",
+  "Name": "DST-IceStar",
   "Filesize": 5590060,
   "Tags": [
            {
@@ -4817,7 +4817,7 @@
   },
   {
   "Duration": 163,
-  "Filename": "DST-IcyRuse.mp3",
+  "Name": "DST-IcyRuse",
   "Filesize": 5226665,
   "Tags": [
            {
@@ -4845,7 +4845,7 @@
   },
   {
   "Duration": 171,
-  "Filename": "DST-impuretechnology.mp3",
+  "Name": "DST-impuretechnology",
   "Filesize": 4804617,
   "Tags": [
            {
@@ -4865,7 +4865,7 @@
   },
   {
   "Duration": 13,
-  "Filename": "DST-Incantation.mp3",
+  "Name": "DST-Incantation",
   "Filesize": 387072,
   "Tags": [
            {
@@ -4881,7 +4881,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-InCircles.mp3",
+  "Name": "DST-InCircles",
   "Filesize": 1974272,
   "Tags": [
            {
@@ -4897,7 +4897,7 @@
   },
   {
   "Duration": 140,
-  "Filename": "DST-InertExponent.mp3",
+  "Name": "DST-InertExponent",
   "Filesize": 3375104,
   "Tags": [
            {
@@ -4929,7 +4929,7 @@
   },
   {
   "Duration": 27,
-  "Filename": "DST-InMotion.mp3",
+  "Name": "DST-InMotion",
   "Filesize": 662321,
   "Tags": [
            {
@@ -4953,7 +4953,7 @@
   },
   {
   "Duration": 10,
-  "Filename": "DST-Innocence.mp3",
+  "Name": "DST-Innocence",
   "Filesize": 290816,
   "Tags": [
            {
@@ -4969,7 +4969,7 @@
   },
   {
   "Duration": 75,
-  "Filename": "DST-InsectBattle.mp3",
+  "Name": "DST-InsectBattle",
   "Filesize": 2416640,
   "Tags": [
            {
@@ -4989,7 +4989,7 @@
   },
   {
   "Duration": 91,
-  "Filename": "DST-Intremes.mp3",
+  "Name": "DST-Intremes",
   "Filesize": 2189312,
   "Tags": [
            {
@@ -5013,7 +5013,7 @@
   },
   {
   "Duration": 264,
-  "Filename": "DST-IRemember.mp3",
+  "Name": "DST-IRemember",
   "Filesize": 6514688,
   "Tags": [
            {
@@ -5049,7 +5049,7 @@
   },
   {
   "Duration": 132,
-  "Filename": "DST-IWant.mp3",
+  "Name": "DST-IWant",
   "Filesize": 3170304,
   "Tags": [
            {
@@ -5069,7 +5069,7 @@
   },
   {
   "Duration": 24,
-  "Filename": "DST-JoinTheClub.mp3",
+  "Name": "DST-JoinTheClub",
   "Filesize": 577536,
   "Tags": [
            {
@@ -5089,7 +5089,7 @@
   },
   {
   "Duration": 54,
-  "Filename": "DST-Journeys.mp3",
+  "Name": "DST-Journeys",
   "Filesize": 1316864,
   "Tags": [
            {
@@ -5117,7 +5117,7 @@
   },
   {
   "Duration": 215,
-  "Filename": "DST-JungleHaze.mp3",
+  "Name": "DST-JungleHaze",
   "Filesize": 5154347,
   "Tags": [
            {
@@ -5145,7 +5145,7 @@
   },
   {
   "Duration": 104,
-  "Filename": "DST-Kettle.mp3",
+  "Name": "DST-Kettle",
   "Filesize": 2914304,
   "Tags": [
            {
@@ -5169,7 +5169,7 @@
   },
   {
   "Duration": 120,
-  "Filename": "DST-KillingBabyDeerWithATVRemote.mp3",
+  "Name": "DST-KillingBabyDeerWithATVRemote",
   "Filesize": 2402304,
   "Tags": [
            {
@@ -5193,7 +5193,7 @@
   },
   {
   "Duration": 284,
-  "Filename": "DST-Knossus.mp3",
+  "Name": "DST-Knossus",
   "Filesize": 6825984,
   "Tags": [
            {
@@ -5221,7 +5221,7 @@
   },
   {
   "Duration": 160,
-  "Filename": "DST-KonsoleGlitch.mp3",
+  "Name": "DST-KonsoleGlitch",
   "Filesize": 6404881,
   "Tags": [
            {
@@ -5257,7 +5257,7 @@
   },
   {
   "Duration": 227,
-  "Filename": "DST-Kronos.mp3",
+  "Name": "DST-Kronos",
   "Filesize": 6363291,
   "Tags": [
            {
@@ -5281,7 +5281,7 @@
   },
   {
   "Duration": 144,
-  "Filename": "DST-Largor.mp3",
+  "Name": "DST-Largor",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -5297,7 +5297,7 @@
   },
   {
   "Duration": 177,
-  "Filename": "DST-Legends.mp3",
+  "Name": "DST-Legends",
   "Filesize": 4245353,
   "Tags": [
            {
@@ -5321,7 +5321,7 @@
   },
   {
   "Duration": 60,
-  "Filename": "DST-Leres.mp3",
+  "Name": "DST-Leres",
   "Filesize": 1930415,
   "Tags": [
            {
@@ -5345,7 +5345,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-Lightness.mp3",
+  "Name": "DST-Lightness",
   "Filesize": 1923072,
   "Tags": [
            {
@@ -5361,7 +5361,7 @@
   },
   {
   "Duration": 75,
-  "Filename": "DST-MagicD.mp3",
+  "Name": "DST-MagicD",
   "Filesize": 2125824,
   "Tags": [
            {
@@ -5389,7 +5389,7 @@
   },
   {
   "Duration": 164,
-  "Filename": "DST-Malaise.mp3",
+  "Name": "DST-Malaise",
   "Filesize": 3952640,
   "Tags": [
            {
@@ -5413,7 +5413,7 @@
   },
   {
   "Duration": 64,
-  "Filename": "DST-MapOfDoom.mp3",
+  "Name": "DST-MapOfDoom",
   "Filesize": 1538048,
   "Tags": [
            {
@@ -5437,7 +5437,7 @@
   },
   {
   "Duration": 130,
-  "Filename": "DST-MBient.mp3",
+  "Name": "DST-MBient",
   "Filesize": 3131206,
   "Tags": [
            {
@@ -5457,7 +5457,7 @@
   },
   {
   "Duration": 109,
-  "Filename": "DST-Meadows.mp3",
+  "Name": "DST-Meadows",
   "Filesize": 2633728,
   "Tags": [
            {
@@ -5481,7 +5481,7 @@
   },
   {
   "Duration": 78,
-  "Filename": "DST-MechaNoir.mp3",
+  "Name": "DST-MechaNoir",
   "Filesize": 1873920,
   "Tags": [
            {
@@ -5509,7 +5509,7 @@
   },
   {
   "Duration": 55,
-  "Filename": "DST-MechaSelect.mp3",
+  "Name": "DST-MechaSelect",
   "Filesize": 1538048,
   "Tags": [
            {
@@ -5537,7 +5537,7 @@
   },
   {
   "Duration": 440,
-  "Filename": "DST-Mechropolis.mp3",
+  "Name": "DST-Mechropolis",
   "Filesize": 8802304,
   "Tags": [
            {
@@ -5561,7 +5561,7 @@
   },
   {
   "Duration": 120,
-  "Filename": "DST-Mehendui.mp3",
+  "Name": "DST-Mehendui",
   "Filesize": 2884194,
   "Tags": [
            {
@@ -5601,7 +5601,7 @@
   },
   {
   "Duration": 41,
-  "Filename": "DST-MetalCavern.mp3",
+  "Name": "DST-MetalCavern",
   "Filesize": 987136,
   "Tags": [
            {
@@ -5617,7 +5617,7 @@
   },
   {
   "Duration": 97,
-  "Filename": "DST-MetalMech.mp3",
+  "Name": "DST-MetalMech",
   "Filesize": 2340864,
   "Tags": [
            {
@@ -5645,7 +5645,7 @@
   },
   {
   "Duration": 195,
-  "Filename": "DST-MezzoForty.mp3",
+  "Name": "DST-MezzoForty",
   "Filesize": 4691968,
   "Tags": [
            {
@@ -5661,7 +5661,7 @@
   },
   {
   "Duration": 59,
-  "Filename": "DST-MH3.mp3",
+  "Name": "DST-MH3",
   "Filesize": 2367396,
   "Tags": [
            {
@@ -5689,7 +5689,7 @@
   },
   {
   "Duration": 186,
-  "Filename": "DST-MirrorMix.mp3",
+  "Name": "DST-MirrorMix",
   "Filesize": 4466688,
   "Tags": [
            {
@@ -5721,7 +5721,7 @@
   },
   {
   "Duration": 41,
-  "Filename": "DST-MoldSkool.mp3",
+  "Name": "DST-MoldSkool",
   "Filesize": 987136,
   "Tags": [
            {
@@ -5745,7 +5745,7 @@
   },
   {
   "Duration": 234,
-  "Filename": "DST-MomentaryFile.mp3",
+  "Name": "DST-MomentaryFile",
   "Filesize": 5631438,
   "Tags": [
            {
@@ -5761,7 +5761,7 @@
   },
   {
   "Duration": 188,
-  "Filename": "DST-MoonBeach.mp3",
+  "Name": "DST-MoonBeach",
   "Filesize": 4511725,
   "Tags": [
            {
@@ -5785,7 +5785,7 @@
   },
   {
   "Duration": 130,
-  "Filename": "DST-MovingStone.mp3",
+  "Name": "DST-MovingStone",
   "Filesize": 3647488,
   "Tags": [
            {
@@ -5801,7 +5801,7 @@
   },
   {
   "Duration": 122,
-  "Filename": "DST-MrMagic.mp3",
+  "Name": "DST-MrMagic",
   "Filesize": 2935601,
   "Tags": [
            {
@@ -5825,7 +5825,7 @@
   },
   {
   "Duration": 116,
-  "Filename": "DST-Muses.mp3",
+  "Name": "DST-Muses",
   "Filesize": 2803712,
   "Tags": [
            {
@@ -5853,7 +5853,7 @@
   },
   {
   "Duration": 130,
-  "Filename": "DST-MushroomRoad.mp3",
+  "Name": "DST-MushroomRoad",
   "Filesize": 3131210,
   "Tags": [
            {
@@ -5877,7 +5877,7 @@
   },
   {
   "Duration": 92,
-  "Filename": "DST-MyColor.mp3",
+  "Name": "DST-MyColor",
   "Filesize": 1843200,
   "Tags": [
            {
@@ -5897,7 +5897,7 @@
   },
   {
   "Duration": 160,
-  "Filename": "DST-MyDarkestHour.mp3",
+  "Name": "DST-MyDarkestHour",
   "Filesize": 3852288,
   "Tags": [
            {
@@ -5921,7 +5921,7 @@
   },
   {
   "Duration": 147,
-  "Filename": "DST-MyriadLives.mp3",
+  "Name": "DST-MyriadLives",
   "Filesize": 4710745,
   "Tags": [
            {
@@ -5945,7 +5945,7 @@
   },
   {
   "Duration": 204,
-  "Filename": "DST-NeoClassic.mp3",
+  "Name": "DST-NeoClassic",
   "Filesize": 4896768,
   "Tags": [
            {
@@ -5961,7 +5961,7 @@
   },
   {
   "Duration": 158,
-  "Filename": "DST-Neon+on.mp3",
+  "Name": "DST-Neon+on",
   "Filesize": 3789492,
   "Tags": [
            {
@@ -5985,7 +5985,7 @@
   },
   {
   "Duration": 164,
-  "Filename": "DST-Nitrogen.mp3",
+  "Name": "DST-Nitrogen",
   "Filesize": 3953752,
   "Tags": [
            {
@@ -6025,7 +6025,7 @@
   },
   {
   "Duration": 108,
-  "Filename": "DST-NoReturn.mp3",
+  "Name": "DST-NoReturn",
   "Filesize": 1736064,
   "Tags": [
            {
@@ -6045,7 +6045,7 @@
   },
   {
   "Duration": 205,
-  "Filename": "DST-NoSleep.mp3",
+  "Name": "DST-NoSleep",
   "Filesize": 5763072,
   "Tags": [
            {
@@ -6065,7 +6065,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-OldCavern.mp3",
+  "Name": "DST-OldCavern",
   "Filesize": 3076459,
   "Tags": [
            {
@@ -6089,7 +6089,7 @@
   },
   {
   "Duration": 142,
-  "Filename": "DST-OLoop.mp3",
+  "Name": "DST-OLoop",
   "Filesize": 3418971,
   "Tags": [
            {
@@ -6109,7 +6109,7 @@
   },
   {
   "Duration": 190,
-  "Filename": "DST-Omicron.mp3",
+  "Name": "DST-Omicron",
   "Filesize": 4554990,
   "Tags": [
            {
@@ -6129,7 +6129,7 @@
   },
   {
   "Duration": 76,
-  "Filename": "DST-OneLevel.mp3",
+  "Name": "DST-OneLevel",
   "Filesize": 3076881,
   "Tags": [
            {
@@ -6157,7 +6157,7 @@
   },
   {
   "Duration": 110,
-  "Filename": "DST-OneWord.mp3",
+  "Name": "DST-OneWord",
   "Filesize": 2648064,
   "Tags": [
            {
@@ -6181,7 +6181,7 @@
   },
   {
   "Duration": 102,
-  "Filename": "DST-Ongoing.mp3",
+  "Name": "DST-Ongoing",
   "Filesize": 3281259,
   "Tags": [
            {
@@ -6205,7 +6205,7 @@
   },
   {
   "Duration": 144,
-  "Filename": "DST-Onrios.mp3",
+  "Name": "DST-Onrios",
   "Filesize": 3457024,
   "Tags": [
            {
@@ -6237,7 +6237,7 @@
   },
   {
   "Duration": 329,
-  "Filename": "DST-OpenGround.mp3",
+  "Name": "DST-OpenGround",
   "Filesize": 9218048,
   "Tags": [
            {
@@ -6261,7 +6261,7 @@
   },
   {
   "Duration": 166,
-  "Filename": "DST-OrangeRazor.mp3",
+  "Name": "DST-OrangeRazor",
   "Filesize": 3997635,
   "Tags": [
            {
@@ -6289,7 +6289,7 @@
   },
   {
   "Duration": 171,
-  "Filename": "DST-Orbitals.mp3",
+  "Name": "DST-Orbitals",
   "Filesize": 4118119,
   "Tags": [
            {
@@ -6317,7 +6317,7 @@
   },
   {
   "Duration": 116,
-  "Filename": "DST-Orchards.mp3",
+  "Name": "DST-Orchards",
   "Filesize": 2797568,
   "Tags": [
            {
@@ -6345,7 +6345,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-OrganicSpace.mp3",
+  "Name": "DST-OrganicSpace",
   "Filesize": 2966321,
   "Tags": [
            {
@@ -6369,7 +6369,7 @@
   },
   {
   "Duration": 152,
-  "Filename": "DST-OriginB.mp3",
+  "Name": "DST-OriginB",
   "Filesize": 4274176,
   "Tags": [
            {
@@ -6389,7 +6389,7 @@
   },
   {
   "Duration": 124,
-  "Filename": "DST-Orpheus-I.mp3",
+  "Name": "DST-Orpheus-I",
   "Filesize": 3471360,
   "Tags": [
            {
@@ -6413,7 +6413,7 @@
   },
   {
   "Duration": 151,
-  "Filename": "DST-OurRealm.mp3",
+  "Name": "DST-OurRealm",
   "Filesize": 4247268,
   "Tags": [
            {
@@ -6441,7 +6441,7 @@
   },
   {
   "Duration": 144,
-  "Filename": "DST-OverlandTheme.mp3",
+  "Name": "DST-OverlandTheme",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -6469,7 +6469,7 @@
   },
   {
   "Duration": 191,
-  "Filename": "DST-OwnYou.mp3",
+  "Name": "DST-OwnYou",
   "Filesize": 5357568,
   "Tags": [
            {
@@ -6489,7 +6489,7 @@
   },
   {
   "Duration": 138,
-  "Filename": "DST-Pariah.mp3",
+  "Name": "DST-Pariah",
   "Filesize": 3887104,
   "Tags": [
            {
@@ -6513,7 +6513,7 @@
   },
   {
   "Duration": 105,
-  "Filename": "DST-PeacefulStreets.mp3",
+  "Name": "DST-PeacefulStreets",
   "Filesize": 1685504,
   "Tags": [
            {
@@ -6541,7 +6541,7 @@
   },
   {
   "Duration": 214,
-  "Filename": "DST-Perchlorate.mp3",
+  "Name": "DST-Perchlorate",
   "Filesize": 6869857,
   "Tags": [
            {
@@ -6561,7 +6561,7 @@
   },
   {
   "Duration": 84,
-  "Filename": "DST-Perpetua.mp3",
+  "Name": "DST-Perpetua",
   "Filesize": 2031616,
   "Tags": [
            {
@@ -6585,7 +6585,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-Petaluna.mp3",
+  "Name": "DST-Petaluna",
   "Filesize": 2306048,
   "Tags": [
            {
@@ -6609,7 +6609,7 @@
   },
   {
   "Duration": 331,
-  "Filename": "DST-Portal.mp3",
+  "Name": "DST-Portal",
   "Filesize": 13246873,
   "Tags": [
            {
@@ -6645,7 +6645,7 @@
   },
   {
   "Duration": 137,
-  "Filename": "DST-PortTown.mp3",
+  "Name": "DST-PortTown",
   "Filesize": 3295468,
   "Tags": [
            {
@@ -6677,7 +6677,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-PowerHungry.mp3",
+  "Name": "DST-PowerHungry",
   "Filesize": 3467264,
   "Tags": [
            {
@@ -6701,7 +6701,7 @@
   },
   {
   "Duration": 235,
-  "Filename": "DST-Premorse.mp3",
+  "Name": "DST-Premorse",
   "Filesize": 6578176,
   "Tags": [
            {
@@ -6725,7 +6725,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-Probly.mp3",
+  "Name": "DST-Probly",
   "Filesize": 1923072,
   "Tags": [
            {
@@ -6753,7 +6753,7 @@
   },
   {
   "Duration": 192,
-  "Filename": "DST-Psykick.mp3",
+  "Name": "DST-Psykick",
   "Filesize": 4608000,
   "Tags": [
            {
@@ -6777,7 +6777,7 @@
   },
   {
   "Duration": 303,
-  "Filename": "DST-RailJet.mp3",
+  "Name": "DST-RailJet",
   "Filesize": 7284736,
   "Tags": [
            {
@@ -6797,7 +6797,7 @@
   },
   {
   "Duration": 120,
-  "Filename": "DST-RainVision.mp3",
+  "Name": "DST-RainVision",
   "Filesize": 4804098,
   "Tags": [
            {
@@ -6821,7 +6821,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-Raiser.mp3",
+  "Name": "DST-Raiser",
   "Filesize": 2691072,
   "Tags": [
            {
@@ -6845,7 +6845,7 @@
   },
   {
   "Duration": 51,
-  "Filename": "DST-RavenWood.mp3",
+  "Name": "DST-RavenWood",
   "Filesize": 2072734,
   "Tags": [
            {
@@ -6893,7 +6893,7 @@
   },
   {
   "Duration": 209,
-  "Filename": "DST-Realm.mp3",
+  "Name": "DST-Realm",
   "Filesize": 5021696,
   "Tags": [
            {
@@ -6909,7 +6909,7 @@
   },
   {
   "Duration": 128,
-  "Filename": "DST-Recreate.mp3",
+  "Name": "DST-Recreate",
   "Filesize": 4102967,
   "Tags": [
            {
@@ -6921,7 +6921,7 @@
   },
   {
   "Duration": 89,
-  "Filename": "DST-RedCurtains.mp3",
+  "Name": "DST-RedCurtains",
   "Filesize": 2154437,
   "Tags": [
            {
@@ -6957,7 +6957,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-ReflectingPool.mp3",
+  "Name": "DST-ReflectingPool",
   "Filesize": 1648640,
   "Tags": [
            {
@@ -6981,7 +6981,7 @@
   },
   {
   "Duration": 137,
-  "Filename": "DST-Regular.mp3",
+  "Name": "DST-Regular",
   "Filesize": 4393031,
   "Tags": [
            {
@@ -7009,7 +7009,7 @@
   },
   {
   "Duration": 29,
-  "Filename": "DST-Reintro.mp3",
+  "Name": "DST-Reintro",
   "Filesize": 703695,
   "Tags": [
            {
@@ -7029,7 +7029,7 @@
   },
   {
   "Duration": 59,
-  "Filename": "DST-Rendevouz.mp3",
+  "Name": "DST-Rendevouz",
   "Filesize": 2367396,
   "Tags": [
            {
@@ -7057,7 +7057,7 @@
   },
   {
   "Duration": 153,
-  "Filename": "DST-Rialto.mp3",
+  "Name": "DST-Rialto",
   "Filesize": 4286464,
   "Tags": [
            {
@@ -7077,7 +7077,7 @@
   },
   {
   "Duration": 173,
-  "Filename": "DST-Rise.mp3",
+  "Name": "DST-Rise",
   "Filesize": 2766848,
   "Tags": [
            {
@@ -7097,7 +7097,7 @@
   },
   {
   "Duration": 185,
-  "Filename": "DST-Robotical.mp3",
+  "Name": "DST-Robotical",
   "Filesize": 4444160,
   "Tags": [
            {
@@ -7117,7 +7117,7 @@
   },
   {
   "Duration": 207,
-  "Filename": "DST-Robotix.mp3",
+  "Name": "DST-Robotix",
   "Filesize": 4966887,
   "Tags": [
            {
@@ -7141,7 +7141,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-RobotLaserCarnage.mp3",
+  "Name": "DST-RobotLaserCarnage",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -7165,7 +7165,7 @@
   },
   {
   "Duration": 207,
-  "Filename": "DST-RockitFlarex.mp3",
+  "Name": "DST-RockitFlarex",
   "Filesize": 4980736,
   "Tags": [
            {
@@ -7189,7 +7189,7 @@
   },
   {
   "Duration": 116,
-  "Filename": "DST-RockX.mp3",
+  "Name": "DST-RockX",
   "Filesize": 2797568,
   "Tags": [
            {
@@ -7213,7 +7213,7 @@
   },
   {
   "Duration": 116,
-  "Filename": "DST-RootCavern.mp3",
+  "Name": "DST-RootCavern",
   "Filesize": 3266560,
   "Tags": [
            {
@@ -7233,7 +7233,7 @@
   },
   {
   "Duration": 225,
-  "Filename": "DST-RunnerCorp.mp3",
+  "Name": "DST-RunnerCorp",
   "Filesize": 8994139,
   "Tags": [
            {
@@ -7277,7 +7277,7 @@
   },
   {
   "Duration": 256,
-  "Filename": "DST-Runway.mp3",
+  "Name": "DST-Runway",
   "Filesize": 5124096,
   "Tags": [
            {
@@ -7301,7 +7301,7 @@
   },
   {
   "Duration": 160,
-  "Filename": "DST-SeaOfZen.mp3",
+  "Name": "DST-SeaOfZen",
   "Filesize": 3844112,
   "Tags": [
            {
@@ -7325,7 +7325,7 @@
   },
   {
   "Duration": 115,
-  "Filename": "DST-Sektor4.mp3",
+  "Name": "DST-Sektor4",
   "Filesize": 2760689,
   "Tags": [
            {
@@ -7353,7 +7353,7 @@
   },
   {
   "Duration": 29,
-  "Filename": "DST-Serade.mp3",
+  "Name": "DST-Serade",
   "Filesize": 716800,
   "Tags": [
            {
@@ -7377,7 +7377,7 @@
   },
   {
   "Duration": 117,
-  "Filename": "DST-SerenadeOfMoon.mp3",
+  "Name": "DST-SerenadeOfMoon",
   "Filesize": 2807808,
   "Tags": [
            {
@@ -7397,7 +7397,7 @@
   },
   {
   "Duration": 77,
-  "Filename": "DST-Seti.mp3",
+  "Name": "DST-Seti",
   "Filesize": 1861632,
   "Tags": [
            {
@@ -7417,7 +7417,7 @@
   },
   {
   "Duration": 223,
-  "Filename": "DST-SilenceDream.mp3",
+  "Name": "DST-SilenceDream",
   "Filesize": 5664768,
   "Tags": [
            {
@@ -7441,7 +7441,7 @@
   },
   {
   "Duration": 137,
-  "Filename": "DST-SilentDose.mp3",
+  "Name": "DST-SilentDose",
   "Filesize": 3295464,
   "Tags": [
            {
@@ -7457,7 +7457,7 @@
   },
   {
   "Duration": 249,
-  "Filename": "DST-SilentOcean.mp3",
+  "Name": "DST-SilentOcean",
   "Filesize": 5982208,
   "Tags": [
            {
@@ -7473,7 +7473,7 @@
   },
   {
   "Duration": 391,
-  "Filename": "DST-SilkLeaves.mp3",
+  "Name": "DST-SilkLeaves",
   "Filesize": 9383936,
   "Tags": [
            {
@@ -7497,7 +7497,7 @@
   },
   {
   "Duration": 98,
-  "Filename": "DST-SimpleMachines.mp3",
+  "Name": "DST-SimpleMachines",
   "Filesize": 3941012,
   "Tags": [
            {
@@ -7525,7 +7525,7 @@
   },
   {
   "Duration": 108,
-  "Filename": "DST-Skargo.mp3",
+  "Name": "DST-Skargo",
   "Filesize": 2592768,
   "Tags": [
            {
@@ -7545,7 +7545,7 @@
   },
   {
   "Duration": 81,
-  "Filename": "DST-SneakAttack.mp3",
+  "Name": "DST-SneakAttack",
   "Filesize": 3258694,
   "Tags": [
            {
@@ -7573,7 +7573,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-Sneaker.mp3",
+  "Name": "DST-Sneaker",
   "Filesize": 1923072,
   "Tags": [
            {
@@ -7589,7 +7589,7 @@
   },
   {
   "Duration": 54,
-  "Filename": "DST-SnowMode.mp3",
+  "Name": "DST-SnowMode",
   "Filesize": 1316864,
   "Tags": [
            {
@@ -7605,7 +7605,7 @@
   },
   {
   "Duration": 80,
-  "Filename": "DST-SpaceBuddha.mp3",
+  "Name": "DST-SpaceBuddha",
   "Filesize": 3204359,
   "Tags": [
            {
@@ -7637,7 +7637,7 @@
   },
   {
   "Duration": 108,
-  "Filename": "DST-SpaceClouds.mp3",
+  "Name": "DST-SpaceClouds",
   "Filesize": 2606464,
   "Tags": [
            {
@@ -7657,7 +7657,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-Spire.mp3",
+  "Name": "DST-Spire",
   "Filesize": 1923072,
   "Tags": [
            {
@@ -7685,7 +7685,7 @@
   },
   {
   "Duration": 278,
-  "Filename": "DST-Stalker.mp3",
+  "Name": "DST-Stalker",
   "Filesize": 5556224,
   "Tags": [
            {
@@ -7709,7 +7709,7 @@
   },
   {
   "Duration": 137,
-  "Filename": "DST-StandardNova.mp3",
+  "Name": "DST-StandardNova",
   "Filesize": 5484326,
   "Tags": [
            {
@@ -7741,7 +7741,7 @@
   },
   {
   "Duration": 257,
-  "Filename": "DST-StardustMemory.mp3",
+  "Name": "DST-StardustMemory",
   "Filesize": 7194925,
   "Tags": [
            {
@@ -7765,7 +7765,7 @@
   },
   {
   "Duration": 98,
-  "Filename": "DST-StarFlake.mp3",
+  "Name": "DST-StarFlake",
   "Filesize": 1176104,
   "Tags": [
            {
@@ -7781,7 +7781,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-StarryBook.mp3",
+  "Name": "DST-StarryBook",
   "Filesize": 2304000,
   "Tags": [
            {
@@ -7801,7 +7801,7 @@
   },
   {
   "Duration": 74,
-  "Filename": "DST-StaticMess.mp3",
+  "Name": "DST-StaticMess",
   "Filesize": 1773568,
   "Tags": [
            {
@@ -7837,7 +7837,7 @@
   },
   {
   "Duration": 82,
-  "Filename": "DST-SteelCandle.mp3",
+  "Name": "DST-SteelCandle",
   "Filesize": 1974272,
   "Tags": [
            {
@@ -7865,7 +7865,7 @@
   },
   {
   "Duration": 201,
-  "Filename": "DST-SteelDecay.mp3",
+  "Name": "DST-SteelDecay",
   "Filesize": 4833280,
   "Tags": [
            {
@@ -7889,7 +7889,7 @@
   },
   {
   "Duration": 13,
-  "Filename": "DST-StoryLoop.mp3",
+  "Name": "DST-StoryLoop",
   "Filesize": 329728,
   "Tags": [
            {
@@ -7913,7 +7913,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-SummerDays.mp3",
+  "Name": "DST-SummerDays",
   "Filesize": 2308035,
   "Tags": [
            {
@@ -7933,7 +7933,7 @@
   },
   {
   "Duration": 84,
-  "Filename": "DST-SummerString.mp3",
+  "Name": "DST-SummerString",
   "Filesize": 2029568,
   "Tags": [
            {
@@ -7965,7 +7965,7 @@
   },
   {
   "Duration": 114,
-  "Filename": "DST-SunShadow.mp3",
+  "Name": "DST-SunShadow",
   "Filesize": 2739996,
   "Tags": [
            {
@@ -7985,7 +7985,7 @@
   },
   {
   "Duration": 178,
-  "Filename": "DST-SwanTown.mp3",
+  "Name": "DST-SwanTown",
   "Filesize": 4272128,
   "Tags": [
            {
@@ -8013,7 +8013,7 @@
   },
   {
   "Duration": 147,
-  "Filename": "DST-SymX.mp3",
+  "Name": "DST-SymX",
   "Filesize": 4130816,
   "Tags": [
            {
@@ -8033,7 +8033,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-Synth5.mp3",
+  "Name": "DST-Synth5",
   "Filesize": 2966325,
   "Tags": [
            {
@@ -8065,7 +8065,7 @@
   },
   {
   "Duration": 103,
-  "Filename": "DST-SynthScape.mp3",
+  "Name": "DST-SynthScape",
   "Filesize": 2472920,
   "Tags": [
            {
@@ -8085,7 +8085,7 @@
   },
   {
   "Duration": 193,
-  "Filename": "DST-Synthus.mp3",
+  "Name": "DST-Synthus",
   "Filesize": 6199450,
   "Tags": [
            {
@@ -8105,7 +8105,7 @@
   },
   {
   "Duration": 45,
-  "Filename": "DST-Systematik.mp3",
+  "Name": "DST-Systematik",
   "Filesize": 1085440,
   "Tags": [
            {
@@ -8125,7 +8125,7 @@
   },
   {
   "Duration": 221,
-  "Filename": "DST-TacticalSpace.mp3",
+  "Name": "DST-TacticalSpace",
   "Filesize": 5303555,
   "Tags": [
            {
@@ -8145,7 +8145,7 @@
   },
   {
   "Duration": 206,
-  "Filename": "DST-TechnoBasic.mp3",
+  "Name": "DST-TechnoBasic",
   "Filesize": 4951211,
   "Tags": [
            {
@@ -8169,7 +8169,7 @@
   },
   {
   "Duration": 57,
-  "Filename": "DST-TempleElectric.mp3",
+  "Name": "DST-TempleElectric",
   "Filesize": 1386437,
   "Tags": [
            {
@@ -8201,7 +8201,7 @@
   },
   {
   "Duration": 96,
-  "Filename": "DST-TempleOfRecourse.mp3",
+  "Name": "DST-TempleOfRecourse",
   "Filesize": 3844881,
   "Tags": [
            {
@@ -8249,7 +8249,7 @@
   },
   {
   "Duration": 162,
-  "Filename": "DST-The86.mp3",
+  "Name": "DST-The86",
   "Filesize": 6503102,
   "Tags": [
            {
@@ -8281,7 +8281,7 @@
   },
   {
   "Duration": 64,
-  "Filename": "DST-TheDamned.mp3",
+  "Name": "DST-TheDamned",
   "Filesize": 2051719,
   "Tags": [
            {
@@ -8313,7 +8313,7 @@
   },
   {
   "Duration": 159,
-  "Filename": "DST-TheDying.mp3",
+  "Name": "DST-TheDying",
   "Filesize": 4454400,
   "Tags": [
            {
@@ -8337,7 +8337,7 @@
   },
   {
   "Duration": 130,
-  "Filename": "DST-TheElectricDoorman.mp3",
+  "Name": "DST-TheElectricDoorman",
   "Filesize": 3124310,
   "Tags": [
            {
@@ -8361,7 +8361,7 @@
   },
   {
   "Duration": 109,
-  "Filename": "DST-TheExit.mp3",
+  "Name": "DST-TheExit",
   "Filesize": 3074048,
   "Tags": [
            {
@@ -8381,7 +8381,7 @@
   },
   {
   "Duration": 55,
-  "Filename": "DST-TheMagiciansArmy.mp3",
+  "Name": "DST-TheMagiciansArmy",
   "Filesize": 1320091,
   "Tags": [
            {
@@ -8397,7 +8397,7 @@
   },
   {
   "Duration": 223,
-  "Filename": "DST-TheMeaning.mp3",
+  "Name": "DST-TheMeaning",
   "Filesize": 7136515,
   "Tags": [
            {
@@ -8413,7 +8413,7 @@
   },
   {
   "Duration": 177,
-  "Filename": "DST-TheSignal.mp3",
+  "Name": "DST-TheSignal",
   "Filesize": 4261888,
   "Tags": [
            {
@@ -8445,7 +8445,7 @@
   },
   {
   "Duration": 139,
-  "Filename": "DST-ThisMachine.mp3",
+  "Name": "DST-ThisMachine",
   "Filesize": 3336192,
   "Tags": [
            {
@@ -8469,7 +8469,7 @@
   },
   {
   "Duration": 132,
-  "Filename": "DST-TimeToDream.mp3",
+  "Name": "DST-TimeToDream",
   "Filesize": 3699547,
   "Tags": [
            {
@@ -8489,7 +8489,7 @@
   },
   {
   "Duration": 136,
-  "Filename": "DST-Tourette.mp3",
+  "Name": "DST-Tourette",
   "Filesize": 2172928,
   "Tags": [
            {
@@ -8509,7 +8509,7 @@
   },
   {
   "Duration": 89,
-  "Filename": "DST-Towner.mp3",
+  "Name": "DST-Towner",
   "Filesize": 2140160,
   "Tags": [
            {
@@ -8533,7 +8533,7 @@
   },
   {
   "Duration": 37,
-  "Filename": "DST-ToyRobotWaltz.mp3",
+  "Name": "DST-ToyRobotWaltz",
   "Filesize": 1481322,
   "Tags": [
            {
@@ -8561,7 +8561,7 @@
   },
   {
   "Duration": 214,
-  "Filename": "DST-Travel.mp3",
+  "Name": "DST-Travel",
   "Filesize": 6002688,
   "Tags": [
            {
@@ -8581,7 +8581,7 @@
   },
   {
   "Duration": 85,
-  "Filename": "DST-TubularMeadow.mp3",
+  "Name": "DST-TubularMeadow",
   "Filesize": 2402304,
   "Tags": [
            {
@@ -8609,7 +8609,7 @@
   },
   {
   "Duration": 158,
-  "Filename": "DST-Twerse.mp3",
+  "Name": "DST-Twerse",
   "Filesize": 3792896,
   "Tags": [
            {
@@ -8629,7 +8629,7 @@
   },
   {
   "Duration": 78,
-  "Filename": "DST-TwoHeaded.mp3",
+  "Name": "DST-TwoHeaded",
   "Filesize": 1869811,
   "Tags": [
            {
@@ -8657,7 +8657,7 @@
   },
   {
   "Duration": 60,
-  "Filename": "DST-TwoLead.mp3",
+  "Name": "DST-TwoLead",
   "Filesize": 1439744,
   "Tags": [
            {
@@ -8677,7 +8677,7 @@
   },
   {
   "Duration": 117,
-  "Filename": "DST-Vesta.mp3",
+  "Name": "DST-Vesta",
   "Filesize": 2826514,
   "Tags": [
            {
@@ -8701,7 +8701,7 @@
   },
   {
   "Duration": 192,
-  "Filename": "DST-VillagersSong.mp3",
+  "Name": "DST-VillagersSong",
   "Filesize": 6147847,
   "Tags": [
            {
@@ -8729,7 +8729,7 @@
   },
   {
   "Duration": 68,
-  "Filename": "DST-WarBattle.mp3",
+  "Name": "DST-WarBattle",
   "Filesize": 1649827,
   "Tags": [
            {
@@ -8757,7 +8757,7 @@
   },
   {
   "Duration": 3,
-  "Filename": "DST-Warned.mp3",
+  "Name": "DST-Warned",
   "Filesize": 83968,
   "Tags": [
            {
@@ -8769,7 +8769,7 @@
   },
   {
   "Duration": 84,
-  "Filename": "DST-WarningBlitz.mp3",
+  "Name": "DST-WarningBlitz",
   "Filesize": 2017280,
   "Tags": [
            {
@@ -8797,7 +8797,7 @@
   },
   {
   "Duration": 178,
-  "Filename": "DST-WaterFae.mp3",
+  "Name": "DST-WaterFae",
   "Filesize": 4267850,
   "Tags": [
            {
@@ -8837,7 +8837,7 @@
   },
   {
   "Duration": 144,
-  "Filename": "DST-WaterFell.mp3",
+  "Name": "DST-WaterFell",
   "Filesize": 3457024,
   "Tags": [
            {
@@ -8865,7 +8865,7 @@
   },
   {
   "Duration": 19,
-  "Filename": "DST-WaterLily.mp3",
+  "Name": "DST-WaterLily",
   "Filesize": 460800,
   "Tags": [
            {
@@ -8885,7 +8885,7 @@
   },
   {
   "Duration": 123,
-  "Filename": "DST-WaterTemple-I.mp3",
+  "Name": "DST-WaterTemple-I",
   "Filesize": 3459072,
   "Tags": [
            {
@@ -8913,7 +8913,7 @@
   },
   {
   "Duration": 131,
-  "Filename": "DST-WayOfTheBarbarian.mp3",
+  "Name": "DST-WayOfTheBarbarian",
   "Filesize": 3155034,
   "Tags": [
            {
@@ -8941,7 +8941,7 @@
   },
   {
   "Duration": 41,
-  "Filename": "DST-Xboss.mp3",
+  "Name": "DST-Xboss",
   "Filesize": 987136,
   "Tags": [
            {
@@ -8965,7 +8965,7 @@
   },
   {
   "Duration": 133,
-  "Filename": "DST-XCity.mp3",
+  "Name": "DST-XCity",
   "Filesize": 3194531,
   "Tags": [
            {
@@ -8989,7 +8989,7 @@
   },
   {
   "Duration": 114,
-  "Filename": "DST-Xend.mp3",
+  "Name": "DST-Xend",
   "Filesize": 2285568,
   "Tags": [
            {
@@ -9009,7 +9009,7 @@
   },
   {
   "Duration": 233,
-  "Filename": "DST-xflight(credits).mp3",
+  "Name": "DST-xflight(credits)",
   "Filesize": 2799616,
   "Tags": [
            {
@@ -9029,7 +9029,7 @@
   },
   {
   "Duration": 206,
-  "Filename": "DST-Xmar.mp3",
+  "Name": "DST-Xmar",
   "Filesize": 4939776,
   "Tags": [
            {
@@ -9049,7 +9049,7 @@
   },
   {
   "Duration": 185,
-  "Filename": "DST-Xmorph.mp3",
+  "Name": "DST-Xmorph",
   "Filesize": 5187584,
   "Tags": [
            {
@@ -9073,7 +9073,7 @@
   },
   {
   "Duration": 139,
-  "Filename": "DST-XYAura.mp3",
+  "Name": "DST-XYAura",
   "Filesize": 3891200,
   "Tags": [
            {

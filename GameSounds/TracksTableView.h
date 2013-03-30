@@ -13,6 +13,7 @@
 @interface TracksTableView : NSTableView <NSTableViewDataSource,NSTableViewDelegate>
 
 @property (strong, nonatomic) GameSoundsManager *gameSoundManager;
+@property (strong) NSArray *filteredTracks;
 
 - (IBAction)playClick:(NSButton *)sender;
 

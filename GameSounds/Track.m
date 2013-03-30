@@ -10,7 +10,7 @@
 #import "Tag.h"
 
 
-#define kFileNameKey @"Filename"
+#define kNameKey @"Name"
 #define kFileSizeKey @"Filesize"
 #define kUrlKey @"Url"
 #define kTagsKey @"Tags"
@@ -18,10 +18,10 @@
 
 @implementation Track
 
-- (id)initWithFileName:(NSString *)fileName fileSize:(long long)fileSize url:(NSString *)url tags:(NSArray *)tags duration:(NSTimeInterval)duration
+- (id)initWithName:(NSString *)name fileSize:(long long)fileSize url:(NSString *)url tags:(NSArray *)tags duration:(NSTimeInterval)duration
 {
     if (self = [super init]) {
-        self.fileName = fileName;
+        self.name = name;
         self.fileSize = fileSize;
         self.url = url;
         self.tags = tags;
@@ -32,7 +32,7 @@
 
 - (id)initWithDictionary:(NSDictionary *)dictionary
 {
-    NSString *fileName = dictionary[kFileNameKey];
+    NSString *name = dictionary[kNameKey];
     NSString *url = dictionary[kUrlKey];
     
     NSArray *tagsArr = dictionary[kTagsKey];
@@ -45,7 +45,7 @@
     NSTimeInterval duration = [dictionary[kDurationKey] doubleValue];
     long long fileSize = [dictionary[kFileSizeKey] longLongValue];
     
-    return [self initWithFileName:fileName fileSize:fileSize url:url tags:tags duration:duration];
+    return [self initWithName:name fileSize:fileSize url:url tags:tags duration:duration];
 }
 
 
@@ -55,7 +55,7 @@
     for (Tag* tag in self.tags) {
         [tagsArr addObject:[tag transformToDictionary]];
     }
-    NSDictionary *dic = @{ kFileNameKey: self.fileName,
+    NSDictionary *dic = @{ kNameKey: self.name,
                            kFileSizeKey: @(self.fileSize),
                            kUrlKey: self.url,
                            kTagsKey: tagsArr,
