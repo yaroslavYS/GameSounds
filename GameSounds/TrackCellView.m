@@ -10,4 +10,16 @@
 
 @implementation TrackCellView
 
+- (void)hideDownloadButton
+{
+    [self.downloadButton setHidden:YES];
+    [self.sizeTextField setHidden:YES];
+}
+
+- (void)showDownloadButton
+{
+    [self.downloadButton setHidden:NO];
+    [self.sizeTextField setHidden:NO];
+}
+
 @end

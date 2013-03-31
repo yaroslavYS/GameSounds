@@ -17,6 +17,7 @@
 #import "Tag.h"
 #import "NSButton+AlternateImage.h"
 #import "TrackCellView.h"
+#import "FileDownloaderHelper.h"
 
 @interface AppDelegate () <NSTableViewDelegate>
 @property (nonatomic, strong) GameSoundsManager *gameSoundsManager;
@@ -109,16 +110,14 @@
 
 - (void)tableViewSelectionDidChange:(NSNotification *)notification
 {
-    [self.lastSelectedCell.downloadButton setHidden:YES];
-    [self.lastSelectedCell.sizeTextField setHidden:YES];
+    [self.lastSelectedCell hideDownloadButton];
     
     NSTableView *table = [notification object];
     NSInteger selected = [table selectedRow];
     
     // Get row at specified index
     TrackCellView *selectedCell = [table viewAtColumn:0 row:selected makeIfNecessary:YES];
-    [selectedCell.downloadButton setHidden:NO];
-    [selectedCell.sizeTextField setHidden:NO];
+    [selectedCell showDownloadButton];
     
     self.lastSelectedCell = selectedCell;
 }
@@ -226,6 +225,20 @@
 - (IBAction)volumeChanged:(NSSlider *)sender
 {
     [self.player setVolume:[sender floatValue]];
+}
+
+
+- (IBAction)downloadClick:(NSButton *)sender
+{
+    NSInteger index = [self.tracksTableView rowForView:sender];
+    
+    Track *track = [self.tracksArrayController arrangedObjects][index];
+    TrackCellView *selectedCell = [self.tracksTableView viewAtColumn:0 row:index makeIfNecessary:YES];
+    [selectedCell hideDownloadButton];
+    
+    
+    FileDownloaderHelper *fileDownloader = [[FileDownloaderHelper alloc] init];
+    [fileDownloader startDownloadingURL:track.url progressIndicator:selectedCell.progressIndicator];
 }
 
 

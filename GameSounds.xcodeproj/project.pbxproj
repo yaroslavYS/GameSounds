@@ -28,6 +28,7 @@
 		B75AC8DA170760DE00A14D3F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75AC8D9170760DD00A14D3F /* AVFoundation.framework */; };
 		B75AC8DC17076CED00A14D3F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75AC8DB17076CEC00A14D3F /* CoreMedia.framework */; };
 		B7A8EE80170893B100FA3225 /* TrackCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EE7F170893B100FA3225 /* TrackCellView.m */; };
+		B7A8EE831708B4A900FA3225 /* FileDownloaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EE821708B4A900FA3225 /* FileDownloaderHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		B75AC8D9170760DD00A14D3F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B75AC8DB17076CEC00A14D3F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		B7A8EE7F170893B100FA3225 /* TrackCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackCellView.m; sourceTree = "<group>"; };
+		B7A8EE811708B4A900FA3225 /* FileDownloaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloaderHelper.h; sourceTree = "<group>"; };
+		B7A8EE821708B4A900FA3225 /* FileDownloaderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloaderHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				B71038BE1700DDDC00813201 /* JSONKit.m */,
 				B75AC8C9170710D200A14D3F /* NSButton+AlternateImage.h */,
 				B75AC8CA170710D200A14D3F /* NSButton+AlternateImage.m */,
+				B7A8EE811708B4A900FA3225 /* FileDownloaderHelper.h */,
+				B7A8EE821708B4A900FA3225 /* FileDownloaderHelper.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				B75AC8D01707231A00A14D3F /* TagCollectionView.m in Sources */,
 				B75AC8D31707244400A14D3F /* TagItemView.m in Sources */,
 				B7A8EE80170893B100FA3225 /* TrackCellView.m in Sources */,
+				B7A8EE831708B4A900FA3225 /* FileDownloaderHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
