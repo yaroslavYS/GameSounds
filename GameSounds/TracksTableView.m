@@ -23,7 +23,7 @@
 @property (weak) IBOutlet TracksTableView *tracksTableView;
 @property (weak) IBOutlet NSTextField *tracksCountLabel;
 @property (weak) IBOutlet NSTextField *trackNameLabel;
-@property (weak) IBOutlet NSArrayController *tracksArrayController;
+@property (strong) NSPredicate *searchPredicate;
 
 @property (strong, nonatomic) AVPlayer *player;
 @property (strong, nonatomic) NSTimer *timer;
@@ -57,6 +57,8 @@
     self.filteredTracks = self.gameSoundManager.tracks;
     self.tracksCountLabel.stringValue = [NSString stringWithFormat:@"(%ld tracks)",[self.filteredTracks count]];
     
+    self.searchPredicate = [NSPredicate predicateWithFormat:@"name CONTAINS[cd] $value"];
+    
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self
@@ -64,6 +66,23 @@
      name:AVPlayerItemDidPlayToEndTimeNotification
      object:self.player];
     
+}
+- (IBAction)changePredicate:(id)sender {
+    NSString *name = [sender stringValue];
+    NSPredicate *predicate = nil;
+    if (![name isEqualToString:@""]) {
+        NSDictionary *dictionary = @{@"value" : name};
+        predicate = [self.searchPredicate predicateWithSubstitutionVariables:dictionary];
+        self.filteredTracks = [self.gameSoundManager.tracks filteredArrayUsingPredicate:predicate];
+        self.tracksCountLabel.stringValue = [NSString stringWithFormat:@"(%ld tracks)",[self.filteredTracks count]];
+        [self.tracksTableView reloadData];
+    }
+    else
+    {
+        self.filteredTracks = self.gameSoundManager.tracks;
+        self.tracksCountLabel.stringValue = [NSString stringWithFormat:@"(%ld tracks)",[self.filteredTracks count]];
+        [self.tracksTableView reloadData];
+    }
 }
 
 - (void)playerItemDidReachEnd:(NSNotification *)notification {
