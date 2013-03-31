@@ -16,6 +16,7 @@
 #import "Track.h"
 #import "Tag.h"
 #import "NSButton+AlternateImage.h"
+#import "TrackCellView.h"
 
 @interface AppDelegate () <NSTableViewDelegate>
 @property (nonatomic, strong) GameSoundsManager *gameSoundsManager;
@@ -33,6 +34,7 @@
 @property (weak) IBOutlet NSSlider *volumeSlider;
 
 @property (weak) NSButton *lastClickedPlayButton;
+@property (weak) TrackCellView *lastSelectedCell;
 @property (nonatomic) BOOL isPlaying;
 @end
 
@@ -107,7 +109,18 @@
 
 - (void)tableViewSelectionDidChange:(NSNotification *)notification
 {
+    [self.lastSelectedCell.downloadButton setHidden:YES];
+    [self.lastSelectedCell.sizeTextField setHidden:YES];
     
+    NSTableView *table = [notification object];
+    NSInteger selected = [table selectedRow];
+    
+    // Get row at specified index
+    TrackCellView *selectedCell = [table viewAtColumn:0 row:selected makeIfNecessary:YES];
+    [selectedCell.downloadButton setHidden:NO];
+    [selectedCell.sizeTextField setHidden:NO];
+    
+    self.lastSelectedCell = selectedCell;
 }
 
 
