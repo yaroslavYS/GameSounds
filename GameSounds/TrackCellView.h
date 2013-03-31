@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface TrackTableCellView : NSTableCellView
+@interface TrackCellView : NSTableCellView
 
 @property (weak) IBOutlet NSTextField *titleTextField;
 @property (weak) IBOutlet NSTextField *subTitleTextField;

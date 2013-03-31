@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Clear Sky. All rights reserved.
 //
 
-#import "TrackTableCellView.h"
+#import "TrackCellView.h"
 
-@implementation TrackTableCellView
+@implementation TrackCellView
 
 @end

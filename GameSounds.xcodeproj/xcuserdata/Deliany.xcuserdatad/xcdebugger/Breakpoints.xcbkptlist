@@ -4,29 +4,16 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "No"
+         shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "GameSounds/TagItemView.m"
-         timestampString = "386352291.270756"
+         filePath = "GameSounds/TrackTableCellView.m"
+         timestampString = "386425537.071189"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "55"
-         endingLineNumber = "55"
-         landmarkName = "-setName:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "GameSounds/TracksTableView.m"
-         timestampString = "386381486.21279"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "71"
-         endingLineNumber = "71"
-         landmarkName = "-changePredicate:"
+         startingLineNumber = "14"
+         endingLineNumber = "14"
+         landmarkName = "-setObjectValue:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

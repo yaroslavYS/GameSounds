@@ -15,23 +15,6 @@
 
 @implementation TagCollectionView
 
-- (NSCollectionViewItem *)newItemForRepresentedObject:(id)object
-{
-    // Let the parent class create the item
-    NSCollectionViewItem *item = [super newItemForRepresentedObject:object];
-    // Now we need the view so we can create bindings between it and the object.
-    
-    
-    NSView *view = [item view];
-    
-    
-    [view bind:@"name" toObject:object withKeyPath:@"name" options:nil];
-    [view bind:@"image" toObject:[NSImage imageNamed:@"icon.png"] withKeyPath:@"self" options:nil];
-    
-    
-    return item;
-}
-
 - (void)setSelectionIndexes:(NSIndexSet *)indexes
 {
     [super setSelectionIndexes:indexes];

@@ -10,12 +10,11 @@
 
 @interface TagItemView : NSView
 
-@property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSImage *image;
-@property (readonly, nonatomic) BOOL selected;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSImage *image;
 
-@property (strong) NSImageView *tagImageView;
-@property (strong) NSTextField *tagNameLabel;
+@property (weak) IBOutlet NSImageView *tagImageView;
+@property (weak) IBOutlet NSTextField *tagNameLabel;
 
 - (void)setSelected:(BOOL)selected;
 

@@ -48,6 +48,28 @@
     return [self initWithName:name fileSize:fileSize url:url tags:tags duration:duration];
 }
 
+- (NSString *)tagsAsString
+{
+    return [self.tags componentsJoinedByString:@", "];
+}
+
+- (NSString *)beautifiedSize
+{
+    float floatSize = self.fileSize;
+    if (floatSize<1023)
+        return([NSString stringWithFormat:@"%f bytes",floatSize]);
+    floatSize = floatSize / 1024;
+    if (floatSize<1023)
+        return([NSString stringWithFormat:@"%1.1f KB",floatSize]);
+    floatSize = floatSize / 1024;
+    if (floatSize<1023)
+        return([NSString stringWithFormat:@"%1.1f MB",floatSize]);
+    floatSize = floatSize / 1024;
+    
+    // Add as many as you like
+    
+    return([NSString stringWithFormat:@"%1.1f GB",floatSize]);
+}
 
 - (NSDictionary *)transformToDictionary
 {

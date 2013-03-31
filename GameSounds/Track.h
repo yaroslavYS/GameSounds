@@ -10,11 +10,13 @@
 
 @interface Track : NSObject
 
-@property (strong) NSString *name;
+@property (nonatomic, strong) NSString *name;
 @property long long fileSize;
-@property (strong) NSString *url;
-@property (strong) NSArray *tags;
+@property (nonatomic, strong) NSString *url;
+@property (nonatomic, strong) NSArray *tags;
 @property NSTimeInterval duration;
+@property (nonatomic, strong, readonly) NSString *tagsAsString;
+@property (nonatomic, strong, readonly) NSString *beautifiedSize;
 
 - (id)initWithName:(NSString*)name fileSize:(long long)fileSize url:(NSString*)url tags:(NSArray*)tags duration:(NSTimeInterval)duration;
 - (id)initWithDictionary:(NSDictionary*)dictionary;

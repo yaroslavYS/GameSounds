@@ -12,4 +12,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (nonatomic, strong) NSArray *tracks;
+@property (nonatomic, strong) NSArray *tags;
+
 @end
